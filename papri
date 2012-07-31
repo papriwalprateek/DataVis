@@ -10,7 +10,7 @@ please check git settings
 
 4) then write in terminal "git status" to ensure that changes are made to "papri" file .
 
-5) then write "git commit -m -a "your message for commit : hello all, i(your name) am here"
+5) then write "git commit -a -m "your message for commit : hello all, i(your name) am here"
 
 6) then do "git branch" to see on which branch you are
 

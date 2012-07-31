@@ -1,1 +1,29 @@
-hello sumit, pari , and ankit sir , this is our Csp301 repo . Please fork it . and please add a commit to check out your settings .
+hi, 
+
+please check git settings
+
+1) write this in terminal "git clone https://github.com/papriwalprateek/DataVis.git" 
+
+2) Please fork this repo by clicking on fork on the papriwalprateek/Datavis repo page https://github.com/papriwalprateek/DataVis .
+
+3) now make modification in file "papri"(this file) , small modifications to this file .. May be like --- pari is here ....
+
+4) then write in terminal "git status" to ensure that changes are made to "papri" file .
+
+5) then write "git commit -a -m "your message for commit : hello all, i(your name) am here"
+
+6) then do "git branch" to see on which branch you are
+
+7) then do "git branch aa" to make a new branch.
+
+8) then do "git checkout aa" to switch to aa branch from master branch 
+
+9) then do "git push origin aa"
+
+10) then come on your repo page change branch from master to aa.
+
+11) and then press pull request .
+
+12) after that we can merge it to repo ...
+
+:)

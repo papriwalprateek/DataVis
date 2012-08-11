@@ -16,6 +16,7 @@ import prefuse.controls.PanControl;
 import prefuse.controls.ZoomControl;
 import prefuse.data.Graph;
 import prefuse.data.Node;
+import prefuse.data.Table;
 import prefuse.data.io.DataIOException;
 import prefuse.data.io.GraphMLReader;
 import prefuse.render.DefaultRendererFactory;
@@ -30,9 +31,8 @@ public class PolBooksVis {
 	{
 		File file = new File("data/polbooks.gml");	
 		Graph graph = new Graph();
-		graph = createGraph(file);	    
-		
-        // 2. prepare the visualization
+		graph = createGraph(file);
+		// 2. prepare the visualization
 
         Visualization vis = new Visualization();
         /* vis is the main object that will run the visualization */
@@ -42,7 +42,7 @@ public class PolBooksVis {
         // 3. setup the renderers and the render factory
 
         // labels for name
-        LabelRenderer nameLabel = new LabelRenderer("name");
+        LabelRenderer nameLabel = new LabelRenderer("label");
         nameLabel.setRoundedCorner(8, 8);
         /* nameLabel decribes how to draw the data elements labeled as "name" */
 
@@ -56,6 +56,10 @@ public class PolBooksVis {
         /* ColorLib.rgb converts the colour values to integers */
 
 
+        // map data to colours in the palette
+        DataColorAction fill = new DataColorAction("socialnet.nodes", "value", Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
+        /* fill describes what colour to draw the graph based on a portion of the data */
+
         // node text
         ColorAction text = new ColorAction("socialnet.nodes", VisualItem.TEXTCOLOR, ColorLib.gray(0));
         /* text describes what colour to draw the text */
@@ -66,6 +70,7 @@ public class PolBooksVis {
 
         // combine the colour assignments into an action list
         ActionList colour = new ActionList();
+        colour.add(fill);
         colour.add(text);
         colour.add(edges);
         vis.putAction("colour", colour);
@@ -111,12 +116,16 @@ public class PolBooksVis {
 
         /* start the visualization working */
         vis.run("colour");
-        vis.run("layout");		
+        vis.run("layout");
+		
     }
 	
 	public static Graph createGraph(File file)
 	{
-		Graph graph = new Graph();
+        Table nodeData = new Table();
+        nodeData.addColumn("label", String.class);
+        nodeData.addColumn("value", String.class);        
+		Graph graph = new Graph(nodeData,true);
 		String str = "";
 		int source = -1;
 		int target = -1;
@@ -129,7 +138,6 @@ public class PolBooksVis {
 			while ((str = br.readLine()) != null) {
 				str = str.trim();
 				String[] temp = str.split("\\s+");
-				System.out.println(str);
 				if(temp[0].equals("node"))
 				{
 					newnode = true;
@@ -153,9 +161,8 @@ public class PolBooksVis {
 				{
 					current_node.value = temp[1];
 					Node node = graph.addNode();
-					//node.set("id",current_node.id);
-					//node.set("value",current_node.value);
-					//node.set("label",current_node.label);					
+					node.set("value",current_node.value);
+					node.set("label",current_node.label);					
 				}				
 				else if(temp[0].equals("source"))
 				{

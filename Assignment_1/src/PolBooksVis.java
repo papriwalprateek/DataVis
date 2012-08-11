@@ -52,7 +52,7 @@ public class PolBooksVis {
         // 4. process the actions
 
         // colour palette for nominal data type
-        int[] palette = new int[]{ColorLib.rgb(255, 180, 180), ColorLib.rgb(190, 190, 255)};
+        int[] palette = new int[]{ColorLib.rgb(255, 180, 180), ColorLib.rgb(190, 190, 255),ColorLib.rgb(0, 191, 255)};
         /* ColorLib.rgb converts the colour values to integers */
 
 

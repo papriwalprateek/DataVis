@@ -9,11 +9,13 @@ import prefuse.action.ActionList;
 import prefuse.action.RepaintAction;
 import prefuse.action.assignment.ColorAction;
 import prefuse.action.assignment.DataColorAction;
+import prefuse.action.assignment.DataShapeAction;
 import prefuse.action.layout.graph.ForceDirectedLayout;
 import prefuse.activity.Activity;
 import prefuse.controls.DragControl;
 import prefuse.controls.PanControl;
 import prefuse.controls.ZoomControl;
+import prefuse.data.Edge;
 import prefuse.data.Graph;
 import prefuse.data.Node;
 import prefuse.data.Table;
@@ -21,6 +23,7 @@ import prefuse.data.io.DataIOException;
 import prefuse.data.io.GraphMLReader;
 import prefuse.render.DefaultRendererFactory;
 import prefuse.render.LabelRenderer;
+import prefuse.render.ShapeRenderer;
 import prefuse.util.ColorLib;
 import prefuse.visual.VisualItem;
 
@@ -32,6 +35,8 @@ public class PolBooksVis {
 		File file = new File("data/polbooks.gml");	
 		Graph graph = new Graph();
 		graph = createGraph(file);
+		
+		
 		// 2. prepare the visualization
 
         Visualization vis = new Visualization();
@@ -42,22 +47,25 @@ public class PolBooksVis {
         // 3. setup the renderers and the render factory
 
         // labels for name
-        LabelRenderer nameLabel = new LabelRenderer("label");
-        nameLabel.setRoundedCorner(8, 8);
+       //LabelRenderer nameLabel = new LabelRenderer();
+        //nameLabel.setTextField();
+        //nameLabel.setHorizontalPadding(10);
+        //nameLabel.setRoundedCorner(8, 8);
         /* nameLabel decribes how to draw the data elements labeled as "name" */
 
         // create the render factory
-        vis.setRendererFactory(new DefaultRendererFactory(nameLabel));
-
+        //vis.setRendererFactory(new DefaultRendererFactory(nameLabel));
         // 4. process the actions
 
+        int[] shapepalette = new int[]{4, 3, 2};  
         // colour palette for nominal data type
-        int[] palette = new int[]{ColorLib.rgb(255, 180, 180), ColorLib.rgb(190, 190, 255),ColorLib.rgb(0, 191, 255)};
+        int[] palette = new int[]{ColorLib.rgb(255, 0, 0), ColorLib.rgb(0, 0, 255),ColorLib.rgb(0, 255, 0)};
         /* ColorLib.rgb converts the colour values to integers */
-
-
+        int[] palette1 = new int[]{ColorLib.rgb(0, 255, 255), ColorLib.rgb(0, 0, 0)};
+        DataShapeAction sh = new DataShapeAction("socialnet.nodes", "value", shapepalette);
+        
         // map data to colours in the palette
-        DataColorAction fill = new DataColorAction("socialnet.nodes", "value", Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
+       DataColorAction fill = new DataColorAction("socialnet.nodes", "value", Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
         /* fill describes what colour to draw the graph based on a portion of the data */
 
         // node text
@@ -65,11 +73,12 @@ public class PolBooksVis {
         /* text describes what colour to draw the text */
 
         // edge
-        ColorAction edges = new ColorAction("socialnet.edges", VisualItem.STROKECOLOR, ColorLib.gray(200));
+        DataColorAction edges = new DataColorAction("socialnet.edges", "type", Constants.NOMINAL, VisualItem.STROKECOLOR, palette1);
         /* edge describes what colour to draw the edges */
 
         // combine the colour assignments into an action list
         ActionList colour = new ActionList();
+        colour.add(sh);
         colour.add(fill);
         colour.add(text);
         colour.add(edges);
@@ -100,10 +109,10 @@ public class PolBooksVis {
 
         display.addControlListener(new ZoomControl());
         /* allow the display to be zoomed (right-drag) */
-
+        display.addControlListener(new Controller());
         // 6. launch the visualizer in a JFrame
 
-        JFrame frame = new JFrame("prefuse tutorial: socialnet");
+        JFrame frame = new JFrame("prefuse");
         /* frame is the main window */
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -121,11 +130,16 @@ public class PolBooksVis {
     }
 	
 	public static Graph createGraph(File file)
-	{
+	{   int counta = 0;
+	    int countb = 0;
         Table nodeData = new Table();
+        Table edgeData = new Table();
         nodeData.addColumn("label", String.class);
-        nodeData.addColumn("value", String.class);        
-		Graph graph = new Graph(nodeData,true);
+        nodeData.addColumn("value", String.class);
+        edgeData.addColumn(Graph.DEFAULT_SOURCE_KEY, int.class);
+        edgeData.addColumn(Graph.DEFAULT_TARGET_KEY, int.class);
+        edgeData.addColumn("type", String.class);
+		Graph graph = new Graph(nodeData, edgeData, false);
 		String str = "";
 		int source = -1;
 		int target = -1;
@@ -155,7 +169,7 @@ public class PolBooksVis {
 				}
 				else if(temp[0].equals("label"))
 				{
-					current_node.label = temp[1];			
+					current_node.label = str.split("\"")[1];			
 				}
 				else if(temp[0].equals("value"))
 				{
@@ -171,10 +185,23 @@ public class PolBooksVis {
 				else if(temp[0].equals("target"))
 				{
 					target = Integer.parseInt(temp[1]);
-					graph.addEdge(source,target);
+					Node sourceNode = graph.getNode(source);
+					Node targetNode = graph.getNode(target);
+					Edge edge=graph.addEdge(sourceNode,targetNode);
+					if(sourceNode.get("value").equals(targetNode.get("value"))){
+						edge.set("type", "a");
+						counta = counta+1;
+					}
+					else{
+						edge.set("type", "b");
+						countb = countb+1;
+					}
 				}
-		    }
+		    } 
 		    fin.close();
+		    int total = (counta+countb);
+		    float result= ((float) counta/total);
+		    System.out.println(result);
 		} catch (Exception e) {
 			System.out.println(e.toString());
 		}

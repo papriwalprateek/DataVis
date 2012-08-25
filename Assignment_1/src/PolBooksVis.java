@@ -132,10 +132,13 @@ public class PolBooksVis {
 	public static Graph createGraph(File file)
 	{   int counta = 0;
 	    int countb = 0;
+	    int minid = 1000000;
+	    Node node = null;
         Table nodeData = new Table();
         Table edgeData = new Table();
         nodeData.addColumn("label", String.class);
         nodeData.addColumn("value", String.class);
+        nodeData.addColumn("source", String.class);
         edgeData.addColumn(Graph.DEFAULT_SOURCE_KEY, int.class);
         edgeData.addColumn(Graph.DEFAULT_TARGET_KEY, int.class);
         edgeData.addColumn("type", String.class);
@@ -165,7 +168,10 @@ public class PolBooksVis {
 				}
 				else if(temp[0].equals("id"))
 				{
-					current_node.id = Integer.parseInt(temp[1]);					
+					int id = Integer.parseInt(temp[1]);
+					current_node.id = id;
+					if(minid>=id)						
+						minid = id;
 				}
 				else if(temp[0].equals("label"))
 				{
@@ -174,19 +180,27 @@ public class PolBooksVis {
 				else if(temp[0].equals("value"))
 				{
 					current_node.value = temp[1];
-					Node node = graph.addNode();
+					node = graph.addNode();
 					node.set("value",current_node.value);
-					node.set("label",current_node.label);					
+					node.set("label",current_node.label);	
 				}				
 				else if(temp[0].equals("source"))
 				{
-					source = Integer.parseInt(temp[1]);
+					if(newnode==true)
+					{
+						current_node.source = temp[1].split("\"")[1];
+						node.set("source",current_node.source);
+					}
+					else
+					{
+						source = Integer.parseInt(temp[1]);
+					}
 				}
 				else if(temp[0].equals("target"))
 				{
 					target = Integer.parseInt(temp[1]);
-					Node sourceNode = graph.getNode(source);
-					Node targetNode = graph.getNode(target);
+					Node sourceNode = graph.getNode(source-minid);
+					Node targetNode = graph.getNode(target-minid);
 					Edge edge=graph.addEdge(sourceNode,targetNode);
 					if(sourceNode.get("value").equals(targetNode.get("value"))){
 						edge.set("type", "a");

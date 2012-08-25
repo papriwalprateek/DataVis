@@ -50,82 +50,96 @@ public class PolBooksVis
 //		System.out.println("\n\n No.of triads Is = "+noOfTriads(makeSample()));
     }
 	public static Graph createGraph(File file)
-	{   int counta = 0;
-	    int countb = 0;
-        Table nodeData = new Table();
-        Table edgeData = new Table();
-        nodeData.addColumn("label", String.class);
-        nodeData.addColumn("value", String.class);
-        edgeData.addColumn(Graph.DEFAULT_SOURCE_KEY, int.class);
-        edgeData.addColumn(Graph.DEFAULT_TARGET_KEY, int.class);
-        edgeData.addColumn("type", String.class);
-		Graph graph = new Graph(nodeData, edgeData, false);
-		String str = "";
-		int source = -1;
-		int target = -1;
-		NodeStruct current_node = null;
-		boolean newnode = false;
-		boolean newedge = false;
-		try {
-			FileInputStream fin = new FileInputStream(file);
-			BufferedReader br = new BufferedReader(new InputStreamReader(fin));
-			while ((str = br.readLine()) != null) {
-				str = str.trim();
-				String[] temp = str.split("\\s+");
-				if(temp[0].equals("node"))
-				{
-					newnode = true;
-					newedge = false;
-					current_node = new NodeStruct();
-				}
-				else if(temp[0].equals("edge"))
-				{
-					newedge = true;
-					newnode = false;
-				}
-				else if(temp[0].equals("id"))
-				{
-					current_node.id = Integer.parseInt(temp[1]);					
-				}
-				else if(temp[0].equals("label"))
-				{
-					current_node.label = str.split("\"")[1];			
-				}
-				else if(temp[0].equals("value"))
-				{
-					current_node.value = temp[1];
-					Node node = graph.addNode();
-					node.set("value",current_node.value);
-					node.set("label",current_node.label);					
-				}				
-				else if(temp[0].equals("source"))
-				{
-					source = Integer.parseInt(temp[1]);
-				}
-				else if(temp[0].equals("target"))
-				{
-					target = Integer.parseInt(temp[1]);
-					Node sourceNode = graph.getNode(source);
-					Node targetNode = graph.getNode(target);
-					Edge edge=graph.addEdge(sourceNode,targetNode);
-					if(sourceNode.get("value").equals(targetNode.get("value"))){
-						edge.set("type", "a");
-						counta = counta+1;
-					}
-					else{
-						edge.set("type", "b");
-						countb = countb+1;
-					}
-				}
-		    } 
-		    fin.close();
-		    int total = (counta+countb);
-		    float result= ((float) counta/total);
-		    System.out.println(result);
-		} catch (Exception e) {
-			System.out.println(e.toString());
-		}
-		return graph;
+	{  int counta = 0;
+	int countb = 0;
+	int minid = 1000000;
+	Node node = null;
+	        Table nodeData = new Table();
+	        Table edgeData = new Table();
+	        nodeData.addColumn("label", String.class);
+	        nodeData.addColumn("value", String.class);
+	        nodeData.addColumn("source", String.class);
+	        edgeData.addColumn(Graph.DEFAULT_SOURCE_KEY, int.class);
+	        edgeData.addColumn(Graph.DEFAULT_TARGET_KEY, int.class);
+	        edgeData.addColumn("type", String.class);
+	Graph graph = new Graph(nodeData, edgeData, false);
+	String str = "";
+	int source = -1;
+	int target = -1;
+	NodeStruct current_node = null;
+	boolean newnode = false;
+	boolean newedge = false;
+	try {
+	FileInputStream fin = new FileInputStream(file);
+	BufferedReader br = new BufferedReader(new InputStreamReader(fin));
+	while ((str = br.readLine()) != null) {
+	str = str.trim();
+	String[] temp = str.split("\\s+");
+	if(temp[0].equals("node"))
+	{
+	newnode = true;
+	newedge = false;
+	current_node = new NodeStruct();
+	}
+	else if(temp[0].equals("edge"))
+	{
+	newedge = true;
+	newnode = false;
+	}
+	else if(temp[0].equals("id"))
+	{
+	int id = Integer.parseInt(temp[1]);
+	current_node.id = id;
+	if(minid>=id)	
+	minid = id;
+	}
+	else if(temp[0].equals("label"))
+	{
+	current_node.label = str.split("\"")[1];	
+	}
+	else if(temp[0].equals("value"))
+	{
+	current_node.value = temp[1];
+	node = graph.addNode();
+	node.set("value",current_node.value);
+	node.set("label",current_node.label);	
+	}	
+	else if(temp[0].equals("source"))
+	{
+	if(newnode==true)
+	{
+	current_node.source = temp[1].split("\"")[1];
+	node.set("source",current_node.source);
+	}
+	else
+	{
+	source = Integer.parseInt(temp[1]);
+	}
+	}
+	else if(temp[0].equals("target"))
+	{
+	target = Integer.parseInt(temp[1]);
+	Node sourceNode = graph.getNode(source-minid);
+	Node targetNode = graph.getNode(target-minid);
+	Edge edge=graph.addEdge(sourceNode,targetNode);
+	if(sourceNode.get("value").equals(targetNode.get("value"))){
+	edge.set("type", "a");
+	counta = counta+1;
+	}
+	else{
+	edge.set("type", "b");
+	countb = countb+1;
+	}
+	}
+	}
+	fin.close();
+	int total = (counta+countb);
+	float result= ((float) counta/total);
+	System.out.println(result);
+	} catch (Exception e) {
+	System.out.println(e.toString());
+	}
+	return graph;
 	}
 	public static void compareGraph(Graph g)
 	{

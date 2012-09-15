@@ -34,11 +34,12 @@ public class ReadExcel {
 		      Sheet sheet = w.getSheet(0);  
 		  	  node = tree.addNode();
 		  	  node.set("label","India");	
-	    	  HashMap<String,Integer> hm = new HashMap<String,Integer>();		  	  
+	    	  TreeMap<String,Integer> hm = new TreeMap<String,Integer>();		  	  
 		      for (int j = 1; j < sheet.getRows(); j++) {
 		   	  //  for (int i = 0; i < sheet.getColumns(); i++) {
-		          Cell cell = sheet.getCell(4,j);		          
-		          hm.put(cell.getContents(),-1);
+		          Cell cell = sheet.getCell(4,j);		      
+		          if(cell.getContents()!=null && cell.getContents()!="")
+		        	  hm.put(cell.getContents(),-1);
 		      //  }
 		      }
 		       Set set = hm.entrySet();
@@ -59,14 +60,18 @@ public class ReadExcel {
 				   Cell state = sheet.getCell(4,j);
 				   Cell district = sheet.getCell(5,j);
 				   Cell name = sheet.getCell(0,j);
+				   if(!state.getContents().equals(""))
+				   {
 				   int state_index = hm.get(state.getContents());
 				   Node district_node = tree.addNode();
 				   Node state_node = tree.getNode(state_index);
 				   Node politician = tree.addNode();
 				   tree.addEdge(state_node, district_node);
-				   tree.addEdge(district_node, politician);
+				   if(sheet.getCell(1,j).getContents().equals("Elected"))
+				   		tree.addEdge(district_node, politician);
 				   district_node.set("label",district.getContents());
-				   politician.set("label",name.getContents());				   
+				   politician.set("label",name.getContents());
+				   }
 			   }
 		    } catch (BiffException e) {
 		      e.printStackTrace();

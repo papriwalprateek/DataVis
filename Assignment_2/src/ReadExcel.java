@@ -20,6 +20,11 @@ public class ReadExcel {
 	        Table nodeData = new Table();
 	        Table edgeData = new Table();
 	        nodeData.addColumn("label", String.class);
+	        nodeData.addColumn("gender", String.class);
+	        nodeData.addColumn("type", String.class);
+	        nodeData.addColumn("education", String.class);
+	        nodeData.addColumn("age", String.class);	        
+	        nodeData.addColumn("attendance", String.class);
 	        edgeData.addColumn(Tree.DEFAULT_SOURCE_KEY, int.class);
 	        edgeData.addColumn(Tree.DEFAULT_TARGET_KEY, int.class);
 	  	    Tree tree = new Tree(nodeData,edgeData);			
@@ -31,7 +36,8 @@ public class ReadExcel {
 		      // Get the first sheet
 		      Sheet sheet = w.getSheet(0);  
 		  	  node = tree.addNode();
-		  	  node.set("label","India");	
+		  	  node.set("label","India");
+			  node.set("type", "country");			  	  
 	    	  TreeMap<String,Integer> hm = new TreeMap<String,Integer>();	
 	    	  TreeMap<String,TreeMap<String,Integer>> parties= new TreeMap<String,TreeMap<String,Integer>>();
 		      for (int j = 1; j < sheet.getRows(); j++) {
@@ -52,6 +58,7 @@ public class ReadExcel {
 				   Node parent = tree.getNode(0);
 				   Edge e = tree.addEdge(parent,node);
 				   node.set("label", me.getKey());
+				   node.set("type", "state");					   
 				   hm.put(me.getKey().toString(),++index);
 				   TreeMap<String,Integer> state_parties = new TreeMap<String,Integer>();
 				   for (int j = 1; j < sheet.getRows(); j++) {
@@ -72,6 +79,7 @@ public class ReadExcel {
 					   state_parties.put(me1.getKey().toString(),++index);
 					   tree.addEdge(node, party);
 					   party.set("label", me1.getKey());
+					   party.set("type", "party");					   
 				   }
 			   } 
 			   for(int j = 1;j<sheet.getRows(); j++)
@@ -82,16 +90,22 @@ public class ReadExcel {
 				   Cell name = sheet.getCell(0,j);
 				   if(!state.getContents().equals(""))
 				   {
-				   int state_index = hm.get(state.getContents());
-				   TreeMap parties_in_state = (TreeMap) parties.get(state.getContents());
-				   int partyindex = (Integer) parties_in_state.get(party.getContents());
-				   Node current_party = tree.getNode(partyindex);
-				   Node district_node = tree.addNode();
-				   Node politician = tree.addNode();
-				   tree.addEdge(current_party, district_node);
-				   tree.addEdge(district_node, politician);
-				   district_node.set("label",district.getContents());
-				   politician.set("label",name.getContents());
+					   int state_index = hm.get(state.getContents());
+					   TreeMap parties_in_state = (TreeMap) parties.get(state.getContents());
+					   int partyindex = (Integer) parties_in_state.get(party.getContents());
+					   Node current_party = tree.getNode(partyindex);
+					   Node district_node = tree.addNode();
+					   Node politician = tree.addNode();
+					   tree.addEdge(current_party, district_node);
+					   tree.addEdge(district_node, politician);
+					   district_node.set("label",district.getContents());
+					   district_node.set("type","district");					   
+					   politician.set("label",name.getContents());
+					   politician.set("type","politician");
+					   politician.set("gender",sheet.getCell(7,j).getContents());
+					   politician.set("education",sheet.getCell(8,j).getContents());
+					   politician.set("age",sheet.getCell(10,j).getContents());	
+					   politician.set("attendance",sheet.getCell(14,j).getContents());					   
 				   }
 			   }
 		    } catch (BiffException e) {

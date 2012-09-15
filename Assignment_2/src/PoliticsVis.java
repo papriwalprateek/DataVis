@@ -310,7 +310,18 @@ public class PoliticsVis extends Display {
         tview.addControlListener(new ControlAdapter() {
             public void itemEntered(VisualItem item, MouseEvent e) {
                 if ( item.canGetString(label) )
-                    title.setText(item.getString(label));
+                {
+                    if(item.getString("type").equals("politician"))
+                    {                 
+                    	String info = item.getString(label)+"  "+"Age : "+item.getString("age")+"  "+"Gender : "+item.getString("gender")+"  "+"Education : "+item.getString("education")+"  "+"Attendance : "+item.getString("attendance");
+                        title.setText(info);
+                        System.out.println(item.getString("type"));
+                    }
+                    else
+                    {
+                        title.setText(item.getString(label));
+                    }
+                }
             }
             public void itemExited(VisualItem item, MouseEvent e) {
                 title.setText(null);

@@ -276,7 +276,7 @@ public class PoliticsVis extends Display {
         Color BACKGROUND = Color.WHITE;
         Color FOREGROUND = Color.BLACK;
 		ReadExcel read_file = new ReadExcel();
-		read_file.setInputFile(DATA_FILE);        
+		read_file.setInputFile(datafile);        
         Tree t = null;
         try {
             t = read_file.read();
@@ -300,7 +300,7 @@ public class PoliticsVis extends Display {
         search.setForeground(FOREGROUND);
         
         final JFastLabel title = new JFastLabel("                 ");
-        title.setPreferredSize(new Dimension(350, 20));
+        title.setPreferredSize(new Dimension(1000, 20));
         title.setVerticalAlignment(SwingConstants.BOTTOM);
         title.setBorder(BorderFactory.createEmptyBorder(3,0,0,0));
         title.setFont(FontLib.getFont("Tahoma", Font.PLAIN, 16));
@@ -315,7 +315,6 @@ public class PoliticsVis extends Display {
                     {                 
                     	String info = item.getString(label)+"  "+"Age : "+item.getString("age")+"  "+"Gender : "+item.getString("gender")+"  "+"Education : "+item.getString("education")+"  "+"Attendance : "+item.getString("attendance");
                         title.setText(info);
-                        System.out.println(item.getString("type"));
                     }
                     else
                     {

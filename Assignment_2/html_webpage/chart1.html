@@ -61,11 +61,11 @@ function handleQueryResponse(response) {
           'chartType': 'LineChart',
           'containerId': 'chart1',
           'options': {
-            'width': 300,
+            'width': 400,
             'height': 300,
             'legend': 'none',
             'title': 'AGE of MPs',
-            'chartArea': {'left': 25, 'top': 25, 'right': 0, 'bottom': 0},
+            'chartArea': {'left': 70, 'top': 50, 'right': 0, 'bottom': 0},
           },
           // Instruct the piechart to use colums 0 (Name) and 3 (Donuts Eaten)
           // from the 'data' DataTable.
@@ -92,11 +92,11 @@ function handleQueryResponse(response) {
           'chartType': 'LineChart',
           'containerId': 'chart2',
           'options': {
-            'width': 300,
+            'width': 400,
             'height': 300,
             'legend': 'none',
             'title': 'AGE of MPs',
-            'chartArea': {'left': 25, 'top': 25, 'right': 0, 'bottom': 0},
+            'chartArea': {'left': 70, 'top': 50, 'right': 0, 'bottom': 0},
           },
           // Instruct the piechart to use colums 0 (Name) and 3 (Donuts Eaten)
           // from the 'data' DataTable.
@@ -144,28 +144,54 @@ function handleQueryResponse(response) {
 </br>
 <li><a href="chart7.html">StateWise Distribution of Political Parties</a></li>
 </ol>
+<h3>Mashups</h3>
+<ol>
+<li><a href="chart8.html">Educational Qualification of MPs</a></li>
+</ol>
+
 </div>
 
-    <div id="dashboard" style="float:left;">
-        <table>
+
+<div id="dashboard" style="float:left;">
+<div style = "width: 1050px;height: 30px">
+<a style="float: right;" href="/home/papri/open.html">Home</a>
+</div>
+<div style="float: left;width: 500px">
+      <table align="center">
         <tr style='vertical-align: top'>
           <td style='width: 300px; font-size: 0.9em;'>
-            <div id="control2"></div>
-          </td>
-          <td style='width: 300px; font-size: 0.9em;'>
-            <div style="float: left;" id="control1"></div>
+	  </br>
+          </br>  
+	   <div id="control2"></div>
           </td>
         </tr>
-        <tr>
-          <td style='width: 300px'>
+	<tr>
+	<td style='width: 300px'>
+            </br></br>
             <div style="float: left;" id="chart1"></div>
           </td>
+	</tr>
+      </table>  
+</div>
+<div style="width:1px;height:700px;background-color:#808080;float:left;"></div>
+<div style="float: left;width: 500px">
+	<table align="center">
+        <tr>
+        <td style='width: 300px; font-size: 0.9em;'>
+ 	</br>
+	</br>
+            <div style="float: left;" id="control1"></div>
+        </td>        
+	</tr>        
+        <tr>
           <td style='width: 300px'>
+	    </br></br>
             <div style="float: left;" id="chart2"></div>
           </td>
         </tr>
       </table>
+</div>
+</div>
 
-    </div>
   </body>
 </html>

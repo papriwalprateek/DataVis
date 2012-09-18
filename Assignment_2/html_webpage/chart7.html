@@ -25,7 +25,7 @@ function drawVisualization() {
   var query = new google.visualization.Query('https://docs.google.com/spreadsheet/ccc?key=0ApN9UGDNJKbpdFpESzYyOFdMbEpxTG0tYWdTaUdFbFE#gid=0');
 
   // Apply query language.
-  query.setQuery('SELECT A, E, K ORDER BY K');
+  query.setQuery('SELECT E, G, COUNT(A) GROUP BY E,G');
 
   // Send the query with a callback function.
   query.send(handleQueryResponse);
@@ -46,57 +46,59 @@ function handleQueryResponse(response) {
           'controlType': 'CategoryFilter',
           'containerId': 'control2',
           'options': {
-            'filterColumnLabel': 'State',
+            'filterColumnLabel': 'Political party',
             'ui': {
             'labelStacking': 'vertical',
               'allowTyping': true,
               'allowMultiple': false
             }
           },
-		  'state': {'selectedValues': ['Rajasthan']}
+		  'state': {'selectedValues': ['Bharatiya Janata Party']}
         });
       
         // Define a Pie chart
         var pie = new google.visualization.ChartWrapper({
-          'chartType': 'LineChart',
+          'chartType': 'PieChart',
           'containerId': 'chart1',
           'options': {
             'width': 300,
             'height': 300,
             'legend': 'none',
-            'title': 'AGE of MPs',
-            'chartArea': {'left': 25, 'top': 25, 'right': 0, 'bottom': 0},
+            'title': 'States',
+            'chartArea': {'left': 15, 'top': 15, 'right': 0, 'bottom': 0},
+            'pieSliceText': 'label'
           },
           // Instruct the piechart to use colums 0 (Name) and 3 (Donuts Eaten)
           // from the 'data' DataTable.
           'view': {'columns': [0, 2]}
         });
-      
-  // Define a category picker control for the Gender column
+           
+        // Define a category picker control for the Gender column
         var categoryPicker1 = new google.visualization.ControlWrapper({
           'controlType': 'CategoryFilter',
           'containerId': 'control1',
           'options': {
-            'filterColumnLabel': 'State',
+            'filterColumnLabel': 'Political party',
             'ui': {
             'labelStacking': 'vertical',
               'allowTyping': true,
               'allowMultiple': false
             }
           },
-		  'state': {'selectedValues': ['Rajasthan']}
+		  'state': {'selectedValues': ['Indian National Congress']}
         });
       
         // Define a Pie chart
         var pie1 = new google.visualization.ChartWrapper({
-          'chartType': 'LineChart',
+          'chartType': 'PieChart',
           'containerId': 'chart2',
           'options': {
             'width': 300,
             'height': 300,
             'legend': 'none',
-            'title': 'AGE of MPs',
-            'chartArea': {'left': 25, 'top': 25, 'right': 0, 'bottom': 0},
+            'title': 'States',
+            'chartArea': {'left': 15, 'top': 15, 'right': 0, 'bottom': 0},
+            'pieSliceText': 'label'
           },
           // Instruct the piechart to use colums 0 (Name) and 3 (Donuts Eaten)
           // from the 'data' DataTable.
@@ -115,57 +117,25 @@ function handleQueryResponse(response) {
       
     </script>
   </head>
-<body style="font-family: Arial;margin: 0px;">
-<div style = "background-color:#FFA500;">
-<h1 align="center" style="margin-bottom: 0;">MP Track of 15th LOK SABHA</h1>
-</div>
-
-<div id="menu" style="background-color:#EEEEEE; height:700px; width:300px;float:left;">
-
-</br>
-<h3>State-Wise Track</h3>
-<ol>
-<li><a href="chart.html">Educational Qualification of MPs</a></li>
-</br>
-<li><a href="chart1.html">AGE of MPs</a></li>
-</br>
-<li><a href="chart2.html">Attendance of MPs</a></li>
-</br>
-<li><a href="chart3.html">StateWise Distribution of Political Parties</a></li>
-</ol>
-
-<h3>Party-Wise Track</h3>
-<ol>
-<li><a href="chart4.html">Educational Qualification of MPs</a></li>
-</br>
-<li><a href="chart5.html">AGE of MPs</a></li>
-</br>
-<li><a href="chart6.html">Attendance of MPs</a></li>
-</br>
-<li><a href="chart7.html">StateWise Distribution of Political Parties</a></li>
-</ol>
-</div>
-
-    <div id="dashboard" style="float:left;">
-        <table>
+  <body style="font-family: Arial;border: 0 none;">
+    <div id="dashboard">
+      <table>
         <tr style='vertical-align: top'>
           <td style='width: 300px; font-size: 0.9em;'>
             <div id="control2"></div>
           </td>
+          <td style='width: 600px'>
+            <div style="float: left;" id="chart1"></div>
+          </td>
           <td style='width: 300px; font-size: 0.9em;'>
             <div style="float: left;" id="control1"></div>
           </td>
-        </tr>
-        <tr>
-          <td style='width: 300px'>
-            <div style="float: left;" id="chart1"></div>
-          </td>
-          <td style='width: 300px'>
+          <td style='width: 600px'>
             <div style="float: left;" id="chart2"></div>
           </td>
         </tr>
       </table>
-
     </div>
+<a href="/home/papri/open.html">Back</a>
   </body>
 </html>

@@ -61,7 +61,7 @@ function handleQueryResponse(response) {
           'chartType': 'LineChart',
           'containerId': 'chart1',
           'options': {
-            'width': 500,
+            'width': 400,
             'height': 500,
             'legend': 'none',
             'title': 'Attendace of MPs',
@@ -92,7 +92,7 @@ function handleQueryResponse(response) {
           'chartType': 'LineChart',
           'containerId': 'chart2',
           'options': {
-            'width': 500,
+            'width': 400,
             'height': 500,
             'legend': 'none',
             'title': 'Attendance of MPs',
@@ -115,25 +115,85 @@ function handleQueryResponse(response) {
       
     </script>
   </head>
-  <body style="font-family: Arial;border: 0 none;">
-    <div id="dashboard">
-      <table>
+<body style="font-family: Arial;margin: 0px;">
+<div style = "background-color:#FFA500;">
+<h1 align="center" style="margin-bottom: 0;">MP Track of 15th LOK SABHA</h1>
+</div>
+
+<div id="menu" style="background-color:#ADD8E6; height:700px; width:300px;float:left;">
+
+</br>
+<h3>State-Wise Track</h3>
+<ol>
+<li><a href="chart.html">Educational Qualification of MPs</a></li>
+</br>
+<li><a href="chart1.html">AGE of MPs</a></li>
+</br>
+<li><a href="chart2.html">Attendance of MPs</a></li>
+</br>
+<li><a href="chart3.html">StateWise Distribution of Political Parties</a></li>
+</ol>
+
+<h3>Party-Wise Track</h3>
+<ol>
+<li><a href="chart4.html">Educational Qualification of MPs</a></li>
+</br>
+<li><a href="chart5.html">AGE of MPs</a></li>
+</br>
+<li><a href="chart6.html">Attendance of MPs</a></li>
+</br>
+<li><a href="chart7.html">StateWise Distribution of Political Parties</a></li>
+</ol>
+
+<h3>Mashups</h3>
+<ol>
+<li><a href="chart8.html">Educational Qualification of MPs</a></li>
+</ol>
+
+</div>
+
+
+<div id="dashboard" style="float:left;">
+<div style = "width: 1050px;height: 30px">
+<a style="float: right;" href="/home/papri/open.html">Home</a>
+</div>
+<div style="float: left;width: 500px">
+      <table align="center">
         <tr style='vertical-align: top'>
-          <td style='width: 200px; font-size: 0.9em;'>
-            <div id="control2"></div>
+          <td style='width: 300px; font-size: 0.9em;'>
+	  </br>
+          </br>  
+	   <div id="control2"></div>
           </td>
-          <td style='width: 600px'>
+        </tr>
+	<tr>
+	<td style='width: 300px'>
+            </br></br>
             <div style="float: left;" id="chart1"></div>
           </td>
-          <td style='width: 200px; font-size: 0.9em;'>
+	</tr>
+      </table>  
+</div>
+<div style="width:1px;height:700px;background-color:#808080;float:left;"></div>
+<div style="float: left;width: 500px">
+	<table align="center">
+        <tr>
+        <td style='width: 300px; font-size: 0.9em;'>
+ 	</br>
+	</br>
             <div style="float: left;" id="control1"></div>
-          </td>
-          <td style='width: 600px'>
+        </td>        
+	</tr>        
+        <tr>
+          <td style='width: 300px'>
+	    </br></br>
             <div style="float: left;" id="chart2"></div>
           </td>
         </tr>
       </table>
-    </div>
-<a href="/home/papri/open.html">Back</a>
+</div>
+</div>
+
   </body>
+
 </html>

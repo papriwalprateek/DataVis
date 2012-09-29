@@ -1,3 +1,5 @@
+package Assignment2.visualizations;
+
 import java.io.File;
 import java.util.*;
 import java.io.IOException;

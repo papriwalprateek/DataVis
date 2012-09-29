@@ -1,3 +1,5 @@
+package Assignment2.visualizations;
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;

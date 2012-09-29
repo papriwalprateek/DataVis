@@ -7,6 +7,7 @@ Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head style="margin: 0px;">
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link href="dropdown-menu.css" media="screen" rel="stylesheet" type="text/css" />
     <title>
       Google Visualization API Sample
     </title>
@@ -118,44 +119,44 @@ function handleQueryResponse(response) {
 <h1 align="center" style="margin-bottom: 0;">MP Track of 15th LOK SABHA</h1>
 </div>
 
-<div id="menu" style="background-color:#ADD8E6; height:700px; width:300px;float:left;">
+<ul id="navigation" class="nav-main">
+  
+    <li class="list"><a href="#">State-Wise Track</a>
+	<ul class="nav-sub">
+		<li><a href="chart.html">Educational Qualification of MPs</a></li>		
+		<li><a href="chart1.html">AGE of MPs</a></li>
+		<li><a href="chart2.html">Attendance of MPs</a></li>
+		<li><a href="chart3.html">StateWise Distribution of Political Parties</a></li>
+		<li><a href="chart11.html">Participation of MPs in Debates</a></li>
+		<li><a href="chart12.html">Questions raised by MPs</a></li>
+	</ul>
+	</li>
+    
+    <li class="list"><a href="#">Party-Wise Track</a>
+	<ul class="nav-sub">
+		<li><a href="chart4.html">Educational Qualification of MPs</a></li>
+		<li><a href="chart5.html">AGE of MPs</a></li>
+		<li><a href="chart6.html">Attendance of MPs</a></li>
+		<li><a href="chart7.html">StateWise Distribution of Political Parties</a></li>
+	</ul>
+    </li>
+    
+    <li class="list"><a href="#">Mashups</a>
+	<ul class="nav-sub">
+		<li><a href="chart8.html">Educational Qualification of MPs</a></li>
+		<li><a href="chart9.html">AGE of MPs</a></li>
+		<li><a href="chart10.html">Attendance of MPs</a></li>
+		<li><a href="chart13.html">Participation of MPs in Debates</a></li>
+		<li><a href="chart14.html">Questions raised by MPs</a></li>
+	</ul>
+    </li>  
+</ul>
 
-</br>
-<h3>State-Wise Track</h3>
-<ol>
-<li><a href="chart.html">Educational Qualification of MPs</a></li>
-</br>
-<li><a href="chart1.html">AGE of MPs</a></li>
-</br>
-<li><a href="chart2.html">Attendance of MPs</a></li>
-</br>
-<li><a href="chart3.html">StateWise Distribution of Political Parties</a></li>
-</ol>
-
-<h3>Party-Wise Track</h3>
-<ol>
-<li><a href="chart4.html">Educational Qualification of MPs</a></li>
-</br>
-<li><a href="chart5.html">AGE of MPs</a></li>
-</br>
-<li><a href="chart6.html">Attendance of MPs</a></li>
-</br>
-<li><a href="chart7.html">StateWise Distribution of Political Parties</a></li>
-</ol>
-
-<h3>Mashups</h3>
-<ol>
-<li><a href="chart8.html">Educational Qualification of MPs</a></li>
-</ol>
-
-</div>
-
-
-<div id="dashboard" style="float:left;">
+<div id="dashboard" style="float:left;width:100%">
 <div style = "width: 1050px;height: 30px">
-<a style="float: right;" href="/home/papri/open.html">Home</a>
+<a style="float: right;" href="open.html">Home</a>
 </div>
-<div style="float: left;width: 500px">
+<div style="float: left;width: 50%">
       <table align="center">
         <tr style='vertical-align: top'>
           <td style='width: 300px; font-size: 0.9em;'>
@@ -173,7 +174,7 @@ function handleQueryResponse(response) {
       </table>  
 </div>
 <div style="width:1px;height:700px;background-color:#808080;float:left;"></div>
-<div style="float: left;width: 500px">
+<div style="ffloat: left;width: 49%">
 	<table align="center">
         <tr>
         <td style='width: 300px; font-size: 0.9em;'>

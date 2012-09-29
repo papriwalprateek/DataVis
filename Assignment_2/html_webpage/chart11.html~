@@ -5,9 +5,9 @@ Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+  <head style="margin: 0px;">
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<link href="dropdown-menu.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="dropdown-menu.css" media="screen" rel="stylesheet" type="text/css" />
     <title>
       Google Visualization API Sample
     </title>
@@ -26,7 +26,7 @@ function drawVisualization() {
   var query = new google.visualization.Query('https://docs.google.com/spreadsheet/ccc?key=0ApN9UGDNJKbpdFpESzYyOFdMbEpxTG0tYWdTaUdFbFE#gid=0');
 
   // Apply query language.
-  query.setQuery('SELECT A, E, K ORDER BY K');
+  query.setQuery('SELECT G, E, SUM(L) GROUP BY G,E');
 
   // Send the query with a callback function.
   query.send(handleQueryResponse);
@@ -49,7 +49,6 @@ function handleQueryResponse(response) {
           'options': {
             'filterColumnLabel': 'State',
             'ui': {
-            'labelStacking': 'vertical',
               'allowTyping': true,
               'allowMultiple': false
             }
@@ -59,45 +58,44 @@ function handleQueryResponse(response) {
       
         // Define a Pie chart
         var pie = new google.visualization.ChartWrapper({
-          'chartType': 'LineChart',
+          'chartType': 'PieChart',
           'containerId': 'chart1',
           'options': {
-            'width': 400,
-            'height': 300,
-            'legend': 'none',
-            'title': 'AGE of MPs',
-            'chartArea': {'left': 70, 'top': 50, 'right': 0, 'bottom': 0},
+            'width': 450,
+            'height': 500,
+            'title': 'Participation of MPs in Debates',
+            'chartArea': {'left': 100, 'top': 100, 'right': 0, 'bottom': 0},
+            'pieSliceText': 'label'
           },
           // Instruct the piechart to use colums 0 (Name) and 3 (Donuts Eaten)
           // from the 'data' DataTable.
           'view': {'columns': [0, 2]}
         });
-      
-  // Define a category picker control for the Gender column
+           
+        // Define a category picker control for the Gender column
         var categoryPicker1 = new google.visualization.ControlWrapper({
           'controlType': 'CategoryFilter',
           'containerId': 'control1',
           'options': {
             'filterColumnLabel': 'State',
             'ui': {
-            'labelStacking': 'vertical',
               'allowTyping': true,
               'allowMultiple': false
             }
           },
-		  'state': {'selectedValues': ['Rajasthan']}
+		  'state': {'selectedValues': ['Punjab']}
         });
       
         // Define a Pie chart
         var pie1 = new google.visualization.ChartWrapper({
-          'chartType': 'LineChart',
+          'chartType': 'PieChart',
           'containerId': 'chart2',
           'options': {
-            'width': 400,
-            'height': 300,
-            'legend': 'none',
-            'title': 'AGE of MPs',
-            'chartArea': {'left': 70, 'top': 50, 'right': 0, 'bottom': 0},
+            'width': 450,
+            'height': 500,
+            'title': 'Participation of MPs in Debates',
+            'chartArea': {'left': 100, 'top': 100, 'right': 0, 'bottom': 0},
+            'pieSliceText': 'label'
           },
           // Instruct the piechart to use colums 0 (Name) and 3 (Donuts Eaten)
           // from the 'data' DataTable.
@@ -154,7 +152,7 @@ function handleQueryResponse(response) {
     </li>  
 </ul>
 
-<div id="dashboard" style="float:left;width:100%">
+<div id="dashboard" style="float:left;">
 <div style = "width: 1050px;height: 30px">
 <a style="float: right;" href="open.html">Home</a>
 </div>
@@ -176,7 +174,7 @@ function handleQueryResponse(response) {
       </table>  
 </div>
 <div style="width:1px;height:700px;background-color:#808080;float:left;"></div>
-<div style="float: left;width: 49%">
+<div style="ffloat: left;width: 49%">
 	<table align="center">
         <tr>
         <td style='width: 300px; font-size: 0.9em;'>

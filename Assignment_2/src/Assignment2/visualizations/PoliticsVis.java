@@ -417,3 +417,4 @@ public class PoliticsVis extends Display {
         
     } // end of inner class TreeMapColorAction    
 }
+

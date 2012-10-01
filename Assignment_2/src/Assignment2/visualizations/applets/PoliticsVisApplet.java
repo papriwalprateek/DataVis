@@ -10,3 +10,4 @@ public class PoliticsVisApplet extends JPrefuseApplet {
     }   
 } 
 
+

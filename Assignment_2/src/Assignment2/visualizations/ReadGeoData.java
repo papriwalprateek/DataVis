@@ -60,6 +60,10 @@ public class ReadGeoData
 			    		    a.candidate = sheet.getCell(0,j).getContents();
 			    		    a.party = sheet.getCell(6,j).getContents();
 			    		    a.state = sheet.getCell(4,j).getContents();
+			    		    a.gender = sheet.getCell(7,j).getContents();
+			    		    a.age = sheet.getCell(10,j).getContents();
+			    		    a.education = sheet.getCell(8,j).getContents();
+			    		    a.attendance = sheet.getCell(24,j).getContents();
 			        	  	hm.put(city,a);
 			          }
 			      //  }
@@ -108,7 +112,7 @@ public class ReadGeoData
 		    		    t.set(count,5,longitude);	
 		    		    out.write("<Placemark>\n");
 		    		    out.write("<name>"+city+"</name>\n");
-		    		    out.write("<description>"+b.candidate+"</description>\n");
+		    		    out.write("<description><![CDATA[\nState: "+b.state+"<br />Candidate: "+b.candidate+"<br />Party: "+b.party+"<br />Gender: "+b.gender+"<br />Age: "+b.age+"<br />Educaition: "+b.education+"<br />Attendance: "+b.attendance+"<br />"+"]]></description>\n");
 		    		    out.write("<Point>\n<coordinates>"+longitude+","+latitude+"</coordinates>\n</Point>\n</Placemark>\n");
 		    			out.write("\n");
 					}	
@@ -145,7 +149,7 @@ public class ReadGeoData
 		    		    t.set(count,5,longitude);	
 		    		    out.write("<Placemark>\n");
 		    		    out.write("<name>"+city+"</name>\n");
-		    		    out.write("<description>"+b.candidate+"</description>\n");
+		    		    out.write("<description><![CDATA[\nState: "+b.state+"<br />Candidate: "+b.candidate+"<br />Party: "+b.party+"<br />Gender: "+b.gender+"<br />Age: "+b.age+"<br />Educaition: "+b.education+"<br />Attendance: "+b.attendance+"<br />"+"]]></description>\n");
 		    		    out.write("<Point>\n<coordinates>"+longitude+","+latitude+"</coordinates>\n</Point>\n</Placemark>\n");
 		    			out.write("\n");
 					}	

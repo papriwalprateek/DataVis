@@ -1,0 +1,3003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.google.com/earth/kml/2">
+<Document>
+
+<Placemark>
+<name>ADILABAD</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Ramesh Rathod<br />Party: Telugu Desam Party<br />Gender: Male<br />Age: 45<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>78.3,19.36</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AGRA</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Ramshankar<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 47<br />Educaition: Doctorate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.01,27.11</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AJMER</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Sachin Pilot<br />Party: Indian National Congress<br />Gender: Male<br />Age: 35<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>74.38,26.27</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ALIGARH</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Raj Kumari Chauhan<br />Party: Bahujan Samaj Party<br />Gender: Female<br />Age: 42<br />Educaition: Inter/ Higher Secondary<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.05,27.53</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ALLAHABAD</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Rewati Raman Singh<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 68<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>81.51,25.27</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ALMORA</name>
+<description><![CDATA[
+State: Uttarakhand<br />Candidate: Pradeep Tamta<br />Party: Indian National Congress<br />Gender: Male<br />Age: 54<br />Educaition: Post Graduate<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>79.4,29.37</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ALWAR</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Jitendra Singh<br />Party: Indian National Congress<br />Gender: Male<br />Age: 41<br />Educaition: Graduate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>76.36,27.34</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AMALAPURAM</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: G.V. Harsha Kumar<br />Party: Indian National Congress<br />Gender: Male<br />Age: 53<br />Educaition: Post Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>82.01,16.35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AMBALA</name>
+<description><![CDATA[
+State: Haryana<br />Candidate: Selja<br />Party: Indian National Congress<br />Gender: Female<br />Age: 49<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>76.5,30.21</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AMETHI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Rahul Gandhi<br />Party: Indian National Congress<br />Gender: Male<br />Age: 42<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>81.48,26.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AMRELI</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Naranbhai Kachhadia<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 57<br />Educaition: Under Matric<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>71.14,21.37</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AMRITSAR</name>
+<description><![CDATA[
+State: Punjab<br />Candidate: Navjot Singh Sidhu<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 48<br />Educaition: Graduate<br />Attendance: 78%<br />]]></description>
+<Point>
+<coordinates>74.53,31.35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AMROHA</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Devendra Nagpal<br />Party: Rashtriya Lok Dal<br />Gender: Male<br />Age: 41<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.28,28.55</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ANAND</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Bharatsinh Madhavsinh Solanki<br />Party: Indian National Congress<br />Gender: Male<br />Age: 58<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>72.56,22.34</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ANANTAPUR</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Anantha Venkatarami Reddy<br />Party: Indian National Congress<br />Gender: Male<br />Age: 56<br />Educaition: Post Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>77.36,14.41</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ANANTNAG</name>
+<description><![CDATA[
+State: Jammu and Kashmir<br />Candidate: Mirza Mehboob Beg<br />Party: Jammu and Kashmir National Conference<br />Gender: Male<br />Age: 63<br />Educaition: Graduate<br />Attendance: 89%<br />]]></description>
+<Point>
+<coordinates>75.09,33.44</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AONLA</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Maneka Gandhi<br />Party: Bharatiya Janata Party<br />Gender: Female<br />Age: 56<br />Educaition: Inter/ Higher Secondary<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>79.09,28.17</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ARAKU</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: V. Kishore Chandra S. Deo<br />Party: Indian National Congress<br />Gender: Male<br />Age: 65<br />Educaition: Post Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>82.48,18.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ARAMBAGH</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Sakti Mohan Malik<br />Party: Communist Party of India (Marxist)<br />Gender: Male<br />Age: 53<br />Educaition: Post Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>87.47,22.53</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ARARIA</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Pradeep Kumar Singh<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 47<br />Educaition: Matric<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>87.24,26.08</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ARRAH</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Meena Singh<br />Party: Janata Dal (United)<br />Gender: Female<br />Age: 50<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>84.4,25.34</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ASKA</name>
+<description><![CDATA[
+State: Orissa<br />Candidate: Nityananda Pradhan<br />Party: Biju Janata Dal<br />Gender: Male<br />Age: 67<br />Educaition: Post Graduate<br />Attendance: 76%<br />]]></description>
+<Point>
+<coordinates>84.39,19.36</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ATTINGAL</name>
+<description><![CDATA[
+State: Kerala<br />Candidate: Anirudhan Sampath<br />Party: Communist Party of India (Marxist)<br />Gender: Male<br />Age: 50<br />Educaition: Post Graduate<br />Attendance: 84%<br />]]></description>
+<Point>
+<coordinates>76.5,8.41</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AZAMGARH</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Ramakant Yadav<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 55<br />Educaition: Matric<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.11,26.04</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BAGALKOT</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: P.C. Gaddigoudar<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 61<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>75.42,16.11</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BAGHPAT</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Ajit Singh<br />Party: Rashtriya Lok Dal<br />Gender: Male<br />Age: 73<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>77.13,28.57</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BAHARAMPUR</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Adhir Ranjan Chowdhury<br />Party: Indian National Congress<br />Gender: Male<br />Age: 56<br />Educaition: Under Matric<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.18,24.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BAHRAICH</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Kamal Kishor<br />Party: Indian National Congress<br />Gender: Male<br />Age: 56<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>81.36,27.35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BALAGHAT</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: K. D. Deshmukh<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 63<br />Educaition: Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>80.11,21.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BALURGHAT</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Prasanta Kumar Majumdar<br />Party: Revolutionary Socialist Party<br />Gender: Male<br />Age: 71<br />Educaition: Post Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.46,25.13</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BANKA</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Putul Kumari<br />Party: Independent<br />Gender: Female<br />Age: 53<br />Educaition: Information not available<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>86.55,24.53</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BANKURA</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Basudeb Acharia<br />Party: Communist Party of India (Marxist)<br />Gender: Male<br />Age: 70<br />Educaition: Post Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>87.04,23.15</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BANSGAON</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Kamlesh Paswan<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 36<br />Educaition: Inter/ Higher Secondary<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.18,26.36</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BAPATLA</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Lakshmi Panabaka<br />Party: Indian National Congress<br />Gender: Female<br />Age: 53<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>80.28,15.54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BARAMATI</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Supriya Sule<br />Party: Nationalist Congress Party<br />Gender: Female<br />Age: 43<br />Educaition: Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>74.35,18.09</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BARDOLI</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Tushar Amarsinh Chaudhary<br />Party: Indian National Congress<br />Gender: Male<br />Age: 46<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>73.07,21.07</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BAREILLY</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Praveen Singh Aron<br />Party: Indian National Congress<br />Gender: Male<br />Age: 53<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>79.25,28.21</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BARGARH</name>
+<description><![CDATA[
+State: Orissa<br />Candidate: Sanjay Bhoi<br />Party: Indian National Congress<br />Gender: Male<br />Age: 38<br />Educaition: Graduate<br />Attendance: 76%<br />]]></description>
+<Point>
+<coordinates>83.37,21.2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BARMER</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Harish Choudhary<br />Party: Indian National Congress<br />Gender: Male<br />Age: 42<br />Educaition: Post Graduate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>71.23,25.45</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BARPETA</name>
+<description><![CDATA[
+State: Assam<br />Candidate: Ismail Hussain<br />Party: Indian National Congress<br />Gender: Male<br />Age: 62<br />Educaition: Post Graduate<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>91.0,26.19</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BASIRHAT</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Sk. Nurul Islam<br />Party: All India Trinamool Congress<br />Gender: Male<br />Age: 48<br />Educaition: Matric<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.53,22.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BASTAR</name>
+<description><![CDATA[
+State: Chhattisgarh<br />Candidate: Dinesh Kashyap<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 42<br />Educaition: Others<br />Attendance: 64%<br />]]></description>
+<Point>
+<coordinates>82.04,19.05</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BASTI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Arvind Kumar Chaudhary<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 48<br />Educaition: Inter/ Higher Secondary<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>82.43,26.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BEGUSARAI</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Monazir Hassan<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 55<br />Educaition: Doctorate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>86.08,25.25</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BELGAUM</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: Suresh Channabasappa Angadi<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 57<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>74.31,15.52</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BELLARY</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: J. Shantha<br />Party: Bharatiya Janata Party<br />Gender: Female<br />Age: 39<br />Educaition: Inter/ Higher Secondary<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>76.56,15.09</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHADOHI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Goraknath Pandey<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 61<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>82.36,25.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHAGALPUR</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Syed Shahnawaz Hussain<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 43<br />Educaition: Diploma Course<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>87.0,25.15</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHARUCH</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Mansukhbhai D. Vasava<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 55<br />Educaition: Post Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>73.0,21.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHAVNAGAR</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Rajendrasinh Ghanshyamsinh Rana (Raju Rana)<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 56<br />Educaition: Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>72.06,21.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHILWARA</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: C. P. Joshi<br />Party: Indian National Congress<br />Gender: Male<br />Age: 62<br />Educaition: Doctorate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>74.38,25.21</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHIND</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Ashok Argal<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 43<br />Educaition: Inter/ Higher Secondary<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>78.48,26.34</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHIWANDI</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Suresh Kashinath Taware<br />Party: Indian National Congress<br />Gender: Male<br />Age: 52<br />Educaition: Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>73.04,19.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHONGIR</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Komatireddy Raj Gopal Reddy<br />Party: Indian National Congress<br />Gender: Male<br />Age: 45<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>78.53,17.31</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHOPAL</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Kailash Joshi<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 83<br />Educaition: Matric<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>77.24,23.16</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BHUBANESWAR</name>
+<description><![CDATA[
+State: Orissa<br />Candidate: Prasanna Kumar Patasani<br />Party: Biju Janata Dal<br />Gender: Male<br />Age: 66<br />Educaition: Doctorate<br />Attendance: 76%<br />]]></description>
+<Point>
+<coordinates>85.5,20.14</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BIDAR</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: N.Dharam Singh<br />Party: Indian National Congress<br />Gender: Male<br />Age: 75<br />Educaition: Post Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>77.33,17.54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BIJNOR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Sanjay Singh Chauhan<br />Party: Rashtriya Lok Dal<br />Gender: Male<br />Age: 50<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.08,29.22</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BIKANER</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Arjun Ram Meghwal<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 58<br />Educaition: Post Graduate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>73.18,28.01</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BISHNUPUR</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Susmita Bauri<br />Party: Communist Party of India (Marxist)<br />Gender: Female<br />Age: 37<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>84.24,23.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BULANDSHAHR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Kamlesh Balmiki<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 59<br />Educaition: Under Matric<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>77.51,28.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CHANDAULI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Ramkishun<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 56<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.18,25.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CHANDIGARH</name>
+<description><![CDATA[
+State: Chandigarh<br />Candidate: Pawan Kumar Bansal<br />Party: Indian National Congress<br />Gender: Male<br />Age: 64<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>76.55,30.44</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CHATRA</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Inder Singh Namdhari<br />Party: Independent<br />Gender: Male<br />Age: 70<br />Educaition: Graduate<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>87.48,24.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CHHINDWARA</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Kamal Nath<br />Party: Indian National Congress<br />Gender: Male<br />Age: 65<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>78.56,22.04</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CHIDAMBARAM</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: Thirumaa Valavan Thol<br />Party: Viduthalai Chiruthaigal Katchi<br />Gender: Male<br />Age: 50<br />Educaition: Post Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>79.42,11.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CHITRADURGA</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: Janardhana Swamy<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 44<br />Educaition: Post Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>76.24,14.14</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CHITTOOR</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Naramalli Sivaprasad<br />Party: Telugu Desam Party<br />Gender: Male<br />Age: 61<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>79.07,13.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CHURU</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Ram Singh Kaswan<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 67<br />Educaition: Graduate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>74.57,28.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>COIMBATORE</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: P.R. Natarajan<br />Party: Communist Party of India (Marxist)<br />Gender: Male<br />Age: 61<br />Educaition: Under Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>76.58,11.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CUDDALORE</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: S. Alagiri<br />Party: Indian National Congress<br />Gender: Male<br />Age: 59<br />Educaition: Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>79.45,11.45</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CUTTACK</name>
+<description><![CDATA[
+State: Orissa<br />Candidate: Bhartruhari Mahtab<br />Party: Biju Janata Dal<br />Gender: Male<br />Age: 55<br />Educaition: Post Graduate<br />Attendance: 76%<br />]]></description>
+<Point>
+<coordinates>85.5,20.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DAHOD</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Prabha Kishore Taviad<br />Party: Indian National Congress<br />Gender: Female<br />Age: 58<br />Educaition: Post Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>74.18,22.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DAMOH</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Shivraj Singh Lodhi<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 68<br />Educaition: Matric<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>79.27,23.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DARBHANGA</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Kirti (Jha) Azad<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 53<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>85.54,26.1</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DARJEELING</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Jaswant Singh<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 74<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.16,27.02</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DAUSA</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Kirodilal Meena<br />Party: Independent<br />Gender: Male<br />Age: 60<br />Educaition: Graduate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>76.25,26.55</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DEORIA</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Gorakh Prasad Jaiswal<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 73<br />Educaition: Matric<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.47,26.31</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DEWAS</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Sajjan Singh Verma<br />Party: Indian National Congress<br />Gender: Male<br />Age: 59<br />Educaition: Post Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>76.04,22.58</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DHANBAD</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Pashupati Nath Singh<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 63<br />Educaition: Graduate<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>86.27,23.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DHARMAPURI</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: R. Thamaraiselvan<br />Party: Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 49<br />Educaition: Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>78.1,12.08</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DHAURAHRA</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Jitin Prasada<br />Party: Indian National Congress<br />Gender: Male<br />Age: 38<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>81.06,28.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DHENKANAL</name>
+<description><![CDATA[
+State: Orissa<br />Candidate: Tathagata Satpathy<br />Party: Biju Janata Dal<br />Gender: Male<br />Age: 56<br />Educaition: Graduate<br />Attendance: 76%<br />]]></description>
+<Point>
+<coordinates>85.36,20.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DHUBRI</name>
+<description><![CDATA[
+State: Assam<br />Candidate: Badruddin Ajmal<br />Party: Assam United Democratic Front<br />Gender: Male<br />Age: 62<br />Educaition: Post Graduate<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>89.58,26.02</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DHULE</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Sonawane Pratap Narayanrao<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 63<br />Educaition: Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>74.47,20.54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DIAMOND HARBOUR</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Somendra Nath Mitra<br />Party: All India Trinamool Congress<br />Gender: Male<br />Age: 68<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.12,22.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DIBRUGARH</name>
+<description><![CDATA[
+State: Assam<br />Candidate: Paban Singh Ghatowar<br />Party: Indian National Congress<br />Gender: Male<br />Age: 61<br />Educaition: Graduate<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>94.54,27.29</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DINDIGUL</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: N.S.V. Chitthan<br />Party: Indian National Congress<br />Gender: Male<br />Age: 78<br />Educaition: Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>77.57,10.21</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DUMKA</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Shibu Soren<br />Party: Jharkhand Mukti Morcha<br />Gender: Male<br />Age: 68<br />Educaition: Matric<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>87.15,24.16</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DURG</name>
+<description><![CDATA[
+State: Chhattisgarh<br />Candidate: Saroj Pandey<br />Party: Bharatiya Janata Party<br />Gender: Female<br />Age: 44<br />Educaition: Post Graduate<br />Attendance: 64%<br />]]></description>
+<Point>
+<coordinates>81.17,21.11</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ELURU</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Kavuri Samba Siva Rao<br />Party: Indian National Congress<br />Gender: Male<br />Age: 68<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>81.06,16.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ERNAKULAM</name>
+<description><![CDATA[
+State: Kerala<br />Candidate: K.V. Thomas<br />Party: Indian National Congress<br />Gender: Male<br />Age: 66<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>76.17,9.59</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ERODE</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: A. Ganeshamurthi<br />Party: Marumalarchi Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 65<br />Educaition: Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>77.44,11.21</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ETAH</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Kalyan Singh<br />Party: Independent<br />Gender: Male<br />Age: 80<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.4,27.38</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>FAIZABAD</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Nirmal Khatri<br />Party: Indian National Congress<br />Gender: Male<br />Age: 61<br />Educaition: Doctorate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>82.08,26.47</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>FARIDABAD</name>
+<description><![CDATA[
+State: Haryana<br />Candidate: Avtar Singh Bhadana<br />Party: Indian National Congress<br />Gender: Male<br />Age: 54<br />Educaition: Under Matric<br />Attendance: 69%<br />]]></description>
+<Point>
+<coordinates>77.19,28.26</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>FARIDKOT</name>
+<description><![CDATA[
+State: Punjab<br />Candidate: Paramjit Kaur Gulshan<br />Party: Shiromani Akali Dal<br />Gender: Female<br />Age: 63<br />Educaition: Post Graduate<br />Attendance: 78%<br />]]></description>
+<Point>
+<coordinates>74.45,30.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>FARRUKHABAD</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Salman Khurshid<br />Party: Indian National Congress<br />Gender: Male<br />Age: 59<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>79.34,27.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>FATEHGARH SAHIB</name>
+<description><![CDATA[
+State: Punjab<br />Candidate: Sukhdev Singh Libra<br />Party: Indian National Congress<br />Gender: Male<br />Age: 79<br />Educaition: Matric<br />Attendance: 78%<br />]]></description>
+<Point>
+<coordinates>76.24,30.36</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>FATEHPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Rakesh Sachan<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 47<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>79.3,24.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>FATEHPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Rakesh Sachan<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 47<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>85.12,24.36</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>FATEHPUR SIKRI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Seema Upadhyay<br />Party: Bahujan Samaj Party<br />Gender: Female<br />Age: 47<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>77.4,27.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>FIROZABAD</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Raj Babbar<br />Party: Indian National Congress<br />Gender: Male<br />Age: 60<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.25,27.09</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GANDHINAGAR</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Lal Krishna Advani<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 84<br />Educaition: Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>75.48,26.54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GANGANAGAR</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Bharat Ram Meghwal<br />Party: Indian National Congress<br />Gender: Male<br />Age: 56<br />Educaition: Graduate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>73.53,29.55</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GAUHATI</name>
+<description><![CDATA[
+State: Assam<br />Candidate: Bijoya Chakravarty<br />Party: Bharatiya Janata Party<br />Gender: Female<br />Age: 72<br />Educaition: Post Graduate<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>91.44,26.11</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GAYA</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Hari Manjhi<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 49<br />Educaition: Under Matric<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>85.0,24.47</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GHATAL</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Gurudas Dasgupta<br />Party: Communist Party of India<br />Gender: Male<br />Age: 75<br />Educaition: Post Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>87.43,22.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GHAZIABAD</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Rajnath Singh<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 61<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>77.26,28.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GHAZIPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Radhe Mohan Singh<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 45<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>80.48,25.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GHOSI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Dara Singh Chauhan<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 49<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>85.06,25.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GHOSI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Dara Singh Chauhan<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 49<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.3,26.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GIRIDIH</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Ravindra Kumar Pandey<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 53<br />Educaition: Graduate<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>86.18,24.11</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GODDA</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Nishikant Dubey<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 43<br />Educaition: Post Graduate<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>87.13,24.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GONDA</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Beni Prasad Verma<br />Party: Indian National Congress<br />Gender: Male<br />Age: 71<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>81.56,27.08</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GOPALGANJ</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Purnmasi Ram<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 62<br />Educaition: Matric<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>84.26,26.28</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GORAKHPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Yogi Adityanath<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 40<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.22,26.45</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GULBARGA</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: Mallikarjun Kharge<br />Party: Indian National Congress<br />Gender: Male<br />Age: 70<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>76.5,17.2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GUNA</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Jyotiraditya Madhavrao Scindia<br />Party: Indian National Congress<br />Gender: Male<br />Age: 41<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>77.19,24.39</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GUNTUR</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Sambasiva Rayapati Rao<br />Party: Indian National Congress<br />Gender: Male<br />Age: 69<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>80.27,16.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GURDASPUR</name>
+<description><![CDATA[
+State: Punjab<br />Candidate: Partap Singh Bajwa<br />Party: Indian National Congress<br />Gender: Male<br />Age: 55<br />Educaition: Graduate<br />Attendance: 78%<br />]]></description>
+<Point>
+<coordinates>75.31,32.02</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GURGAON</name>
+<description><![CDATA[
+State: Haryana<br />Candidate: Inderjit Singh Rao<br />Party: Indian National Congress<br />Gender: Male<br />Age: 62<br />Educaition: Graduate<br />Attendance: 69%<br />]]></description>
+<Point>
+<coordinates>77.02,28.28</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GWALIOR</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Yashodhara Raje Scindia<br />Party: Bharatiya Janata Party<br />Gender: Female<br />Age: 58<br />Educaition: Inter/ Higher Secondary<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>78.1,26.13</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HARDOI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Usha Verma<br />Party: Samajwadi Party<br />Gender: Female<br />Age: 49<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>80.07,27.25</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HARDWAR</name>
+<description><![CDATA[
+State: Uttarakhand<br />Candidate: Harish Rawat<br />Party: Indian National Congress<br />Gender: Male<br />Age: 64<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>78.1,29.58</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HASSAN</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: H.D. Devegowda<br />Party: Janata Dal (Secular)<br />Gender: Male<br />Age: 79<br />Educaition: Diploma Course<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>76.06,13.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HATHRAS</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Sarika Singh Baghel<br />Party: Rashtriya Lok Dal<br />Gender: Female<br />Age: 32<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.06,27.36</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HAVERI</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: Udasi Shivkumar Chanabasappa<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 45<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>75.24,14.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HAZARIBAGH</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Yashwant Sinha<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 74<br />Educaition: Post Graduate<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>85.21,23.59</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HINDUPUR</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Kristappa Nimmala<br />Party: Telugu Desam Party<br />Gender: Male<br />Age: 55<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>77.29,13.49</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HINGOLI</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Subhash Bapurao Wankhede<br />Party: Shiv Sena<br />Gender: Male<br />Age: 49<br />Educaition: Matric<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>77.09,19.43</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HISAR</name>
+<description><![CDATA[
+State: Haryana<br />Candidate: Kuldeep Bishnoi<br />Party: Haryana Janhit Congress<br />Gender: Male<br />Age: 43<br />Educaition: Graduate<br />Attendance: 69%<br />]]></description>
+<Point>
+<coordinates>75.43,29.1</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HOSHANGABAD</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Uday Pratap Singh<br />Party: Indian National Congress<br />Gender: Male<br />Age: 48<br />Educaition: Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>77.42,22.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HOWRAH</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Ambica Banerjee<br />Party: All India Trinamool Congress<br />Gender: Male<br />Age: 84<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.2,22.35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HYDERABAD</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Asaduddin Owaisi<br />Party: All India Majlis-E-Ittehadul Muslimmen<br />Gender: Male<br />Age: 43<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>78.29,17.23</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>INDORE</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Sumitra Mahajan<br />Party: Bharatiya Janata Party<br />Gender: Female<br />Age: 69<br />Educaition: Post Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>75.5,22.43</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JABALPUR</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Rakesh Singh<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 50<br />Educaition: Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>79.57,23.1</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JAHANABAD</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Jagdish Sharma<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 61<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>83.48,25.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JAIPUR</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Mahesh Joshi<br />Party: Indian National Congress<br />Gender: Male<br />Age: 57<br />Educaition: Doctorate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>75.49,26.55</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JAJPUR</name>
+<description><![CDATA[
+State: Orissa<br />Candidate: Mohan Jena<br />Party: Biju Janata Dal<br />Gender: Male<br />Age: 55<br />Educaition: Post Graduate<br />Attendance: 76%<br />]]></description>
+<Point>
+<coordinates>86.2,20.51</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JALAUN</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Ghansyam Anuragi<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 39<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>79.21,26.09</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JALNA</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Raosaheb Patil Danve<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 57<br />Educaition: Under Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>75.53,19.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JALPAIGURI</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Mahendra Kumar Roy<br />Party: Communist Party of India (Marxist)<br />Gender: Male<br />Age: 56<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.44,26.31</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JAMMU</name>
+<description><![CDATA[
+State: Jammu and Kashmir<br />Candidate: Madan Lal Sharma<br />Party: Indian National Congress<br />Gender: Male<br />Age: 60<br />Educaition: Inter/ Higher Secondary<br />Attendance: 89%<br />]]></description>
+<Point>
+<coordinates>74.52,32.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JAMNAGAR</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Vikrambhai Arjanbhai Maadam<br />Party: Indian National Congress<br />Gender: Male<br />Age: 54<br />Educaition: Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>70.04,22.28</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JAMSHEDPUR</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Arjun Munda<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 44<br />Educaition: Graduate<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>86.11,22.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JAMUI</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Bhudeo Choudhary<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 52<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>86.13,24.55</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JANGIPUR</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Pranab Mukherjee<br />Party: Indian National Congress<br />Gender: Male<br />Age: 76<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>88.04,24.28</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JAUNPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Dhananjay Singh<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 37<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>82.41,25.44</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JAYNAGAR</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Tarun Mandal<br />Party: Independent<br />Gender: Male<br />Age: 53<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>86.09,26.35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JHANJHARPUR</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Mangani Lal Mandal<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 64<br />Educaition: Post Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>86.18,26.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JHANSI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Pradeep Kumar Jain Aditya<br />Party: Indian National Congress<br />Gender: Male<br />Age: 50<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>78.35,25.26</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JHARGRAM</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Pulin Bihari Baske<br />Party: Communist Party of India (Marxist)<br />Gender: Male<br />Age: 44<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>86.59,22.27</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JHUNJHUNU</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Sheesh Ram Ola<br />Party: Indian National Congress<br />Gender: Male<br />Age: 85<br />Educaition: Matric<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>75.24,28.08</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JODHPUR</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Chandresh Kumari Katoch<br />Party: Indian National Congress<br />Gender: Female<br />Age: 68<br />Educaition: Under Graduate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>73.02,26.17</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JORHAT</name>
+<description><![CDATA[
+State: Assam<br />Candidate: Bijoy Krishna Handique<br />Party: Indian National Congress<br />Gender: Male<br />Age: 77<br />Educaition: Post Graduate<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>94.13,26.45</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>JUNAGADH</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Solanki Dinubhai Boghabhal<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 55<br />Educaition: Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>70.28,21.31</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KAIRANA</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Tabassum Hasan<br />Party: Bahujan Samaj Party<br />Gender: Female<br />Age: 41<br />Educaition: Matric<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>77.12,29.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KAKINADA</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Mallipudi Raju Pallam Mangapati<br />Party: Indian National Congress<br />Gender: Male<br />Age: 50<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>82.13,16.56</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KALYAN</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Anand Prakash Paranjpe<br />Party: Shiv Sena<br />Gender: Male<br />Age: 39<br />Educaition: Post Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>73.09,19.15</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KANGRA</name>
+<description><![CDATA[
+State: Himachal Pradesh<br />Candidate: Rajan Sushant<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 57<br />Educaition: Doctorate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>76.16,32.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KANKER</name>
+<description><![CDATA[
+State: Chhattisgarh<br />Candidate: Sohan Potai<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 54<br />Educaition: Post Graduate<br />Attendance: 64%<br />]]></description>
+<Point>
+<coordinates>81.29,20.17</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KANNAUJ</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Dimple Yadav<br />Party: Samajwadi Party<br />Gender: Female<br />Age: 34<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>79.55,27.04</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KANNIYAKUMARI</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: Davidson J. Helen<br />Party: Dravida Munnetra Kazhagam<br />Gender: Female<br />Age: 41<br />Educaition: Post Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>77.34,8.05</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KANPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Shriprakash Jaiswal<br />Party: Indian National Congress<br />Gender: Male<br />Age: 67<br />Educaition: Inter/ Higher Secondary<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>80.21,26.28</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KANTHI</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Sisir Kumar Adhikari<br />Party: All India Trinamool Congress<br />Gender: Male<br />Age: 70<br />Educaition: Inter/ Higher Secondary<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>87.48,21.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KARIMGANJ</name>
+<description><![CDATA[
+State: Assam<br />Candidate: Lalit Mohan Suklabaidya<br />Party: Indian National Congress<br />Gender: Male<br />Age: 69<br />Educaition: Post Graduate<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>92.3,24.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KARIMNAGAR</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Prabhakar Ponnam<br />Party: Indian National Congress<br />Gender: Male<br />Age: 45<br />Educaition: Post Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>79.09,18.26</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KARNAL</name>
+<description><![CDATA[
+State: Haryana<br />Candidate: Arvind Kumar Sharma<br />Party: Indian National Congress<br />Gender: Male<br />Age: 48<br />Educaition: Post Graduate<br />Attendance: 69%<br />]]></description>
+<Point>
+<coordinates>76.59,29.41</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KARUR</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: Munisamy Thambidurai<br />Party: All India Anna Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 65<br />Educaition: Doctorate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>77.24,15.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KASARAGOD</name>
+<description><![CDATA[
+State: Kerala<br />Candidate: P. Karunakaran<br />Party: Communist Party of India (Marxist)<br />Gender: Male<br />Age: 67<br />Educaition: Post Graduate<br />Attendance: 84%<br />]]></description>
+<Point>
+<coordinates>75.0,12.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KATIHAR</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Nikhil Kumar Choudhary<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 66<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>87.35,25.32</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KHAGARIA</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Dinesh Chandra Yadav<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 62<br />Educaition: Diploma Course<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>86.29,25.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KHAMMAM</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Nama Nageswara Rao<br />Party: Telugu Desam Party<br />Gender: Male<br />Age: 55<br />Educaition: Inter/ Higher Secondary<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>80.09,17.15</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KHANDWA</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Arun Subhashchandra Yadav<br />Party: Indian National Congress<br />Gender: Male<br />Age: 38<br />Educaition: Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>76.2,21.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KHEDA</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Dinsha J. Patel<br />Party: Indian National Congress<br />Gender: Male<br />Age: 75<br />Educaition: Matric<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>72.42,22.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KHERI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Zafar Ali Naqvi<br />Party: Indian National Congress<br />Gender: Male<br />Age: 65<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>80.48,27.54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KHUNTI</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Kariya Munda<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 76<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>85.17,23.05</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KISHANGANJ</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Asrarul Haque Mohammad<br />Party: Indian National Congress<br />Gender: Male<br />Age: 70<br />Educaition: Post Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>87.56,26.07</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KODARMA</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Babu Lal Marandi<br />Party: Jharkhand Vikas Morcha (Prajatantrik)<br />Gender: Male<br />Age: 54<br />Educaition: Graduate<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>85.36,24.28</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>LATUR</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Awale Jaywant Gangaram<br />Party: Indian National Congress<br />Gender: Male<br />Age: 72<br />Educaition: Inter/ Higher Secondary<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>76.35,18.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>LOHARDAGA</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Sudarshan Bhagat<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 42<br />Educaition: Graduate<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>84.42,23.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>LUCKNOW</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Lal Ji Tandon<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 77<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>80.55,26.51</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>LUDHIANA</name>
+<description><![CDATA[
+State: Punjab<br />Candidate: Manish Tewari<br />Party: Indian National Congress<br />Gender: Male<br />Age: 46<br />Educaition: Graduate<br />Attendance: 78%<br />]]></description>
+<Point>
+<coordinates>75.51,30.54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MACHHLISHAHR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Tufani Saroj<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 56<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>82.25,25.41</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MACHILIPATNAM</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Konakalla Narayana Rao<br />Party: Telugu Desam Party<br />Gender: Male<br />Age: 62<br />Educaition: Inter/ Higher Secondary<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>81.08,16.1</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MADHA</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Sharad Chandra Govindrao Pawar<br />Party: Nationalist Congress Party<br />Gender: Male<br />Age: 71<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>75.3,18.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MADHEPURA</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Sharad Yadav<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 65<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>86.51,25.57</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MADHUBANI</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Hukamdeo Narayan Yadav<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 72<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>86.05,26.22</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MADURAI</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: M. K. Alagiri<br />Party: Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 61<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>78.07,9.56</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MAHASAMUND</name>
+<description><![CDATA[
+State: Chhattisgarh<br />Candidate: Chandu Lal Sahu<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 53<br />Educaition: Graduate<br />Attendance: 64%<br />]]></description>
+<Point>
+<coordinates>82.06,21.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MAINPURI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Mulayam Singh Yadav<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 72<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>79.01,27.14</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MALAPPURAM</name>
+<description><![CDATA[
+State: Kerala<br />Candidate: E. Ahamed<br />Party: Muslim League Kerala State Committee<br />Gender: Male<br />Age: 74<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>76.06,11.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MANDI</name>
+<description><![CDATA[
+State: Himachal Pradesh<br />Candidate: Virbhadra Singh<br />Party: Indian National Congress<br />Gender: Male<br />Age: 78<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>76.55,31.43</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MANDLA</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Basori Singh Masram<br />Party: Indian National Congress<br />Gender: Male<br />Age: 66<br />Educaition: Under Matric<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>80.23,22.36</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MANDYA</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: N Cheluvaraya Swamy @ Swamygowda<br />Party: Janata Dal (Secular)<br />Gender: Male<br />Age: 52<br />Educaition: Diploma Course<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>76.54,12.33</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MATHURA</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Jayant Chaudhary<br />Party: Rashtriya Lok Dal<br />Gender: Male<br />Age: 33<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>77.41,27.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MATHURAPUR</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Choudhury Mohan Jatua<br />Party: All India Trinamool Congress<br />Gender: Male<br />Age: 74<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>88.24,22.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MEDAK</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: M. Vijaya Shanthi<br />Party: Telangana Rashtra Samithi<br />Gender: Female<br />Age: 46<br />Educaition: Matric<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>78.16,18.02</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MEDINIPUR</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Prabodh Panda<br />Party: Communist Party of India<br />Gender: Male<br />Age: 66<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>87.18,22.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MEERUT</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Rajendra Agrawal<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 62<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>77.42,28.59</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MIRZAPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Bal Kumar Patel<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 48<br />Educaition: Inter/ Higher Secondary<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>82.36,25.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MISRIKH</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Ashok Kumar Rawat<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 36<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>80.31,27.27</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MOHANLALGANJ</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Sushila Saroj<br />Party: Samajwadi Party<br />Gender: Female<br />Age: 61<br />Educaition: Post Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>80.54,26.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MORADABAD</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Mohammed Azharuddin<br />Party: Indian National Congress<br />Gender: Male<br />Age: 49<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.47,28.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MORENA</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Narendra Singh Tomar<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 55<br />Educaition: Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>78.09,26.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MUNGER</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Rajiv Ranjan (Lalan) Singh<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 57<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>86.3,25.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MURSHIDABAD</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Abdul Mannan Hossain<br />Party: Indian National Congress<br />Gender: Male<br />Age: 59<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.16,24.11</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MUZAFFARNAGAR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Kadir Rana<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 50<br />Educaition: Under Matric<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>77.41,29.28</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MUZAFFARPUR</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Jainarain Prasad Nishad<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 81<br />Educaition: Inter/ Higher Secondary<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>85.24,26.07</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MYSORE</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: Adagooru H Vishwanath<br />Party: Indian National Congress<br />Gender: Male<br />Age: 62<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>76.39,12.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NAGAUR</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Jyoti Mirdha<br />Party: Indian National Congress<br />Gender: Female<br />Age: 40<br />Educaition: Graduate<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>73.44,27.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NAGINA</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Yashvir Singh<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 39<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.27,29.27</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NAGPUR</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Vilas Baburao Muttemwar<br />Party: Indian National Congress<br />Gender: Male<br />Age: 63<br />Educaition: Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>79.06,21.09</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NALANDA</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Kaushalendra Kumar<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 54<br />Educaition: Inter/ Higher Secondary<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>85.25,25.07</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NALGONDA</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Sukender Reddy Gutha<br />Party: Indian National Congress<br />Gender: Male<br />Age: 58<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>79.16,17.03</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NAMAKKAL</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: S. Gandhiselvan<br />Party: Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 49<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>78.1,11.14</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NANDED</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Khatgaonkar Patil Bhaskarrao Bapurao<br />Party: Indian National Congress<br />Gender: Male<br />Age: 68<br />Educaition: Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>77.2,19.09</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NANDURBAR</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Manikrao Hodlya Gavit<br />Party: Indian National Congress<br />Gender: Male<br />Age: 77<br />Educaition: Matric<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>74.15,21.22</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NANDYAL</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: S.P.Y. Reddy<br />Party: Indian National Congress<br />Gender: Male<br />Age: 62<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>78.29,15.29</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NARASARAOPET</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Modugula Venugopala Reddy<br />Party: Telugu Desam Party<br />Gender: Male<br />Age: 46<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>80.04,16.15</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NAVSARI</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: C. R. Patil<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 57<br />Educaition: Certificate Course<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>72.55,20.51</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NAWADA</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Bhola Singh<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 77<br />Educaition: Doctorate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>85.32,24.53</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NAWGONG</name>
+<description><![CDATA[
+State: Assam<br />Candidate: Rajen Gohain<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 61<br />Educaition: Graduate<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>79.24,25.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NELLORE</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Mekapati Rajamohan Reddy<br />Party: Yuvajana Sramika Rythu Congress Party<br />Gender: Male<br />Age: 68<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>79.58,14.26</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NEW DELHI</name>
+<description><![CDATA[
+State: Delhi<br />Candidate: Ajay Maken<br />Party: Indian National Congress<br />Gender: Male<br />Age: 48<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>77.13,28.39</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NIZAMABAD</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Madhu Goud Yaskhi<br />Party: Indian National Congress<br />Gender: Male<br />Age: 51<br />Educaition: Post Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>83.06,26.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ONGOLE</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Magunta Srinivasulu Reddy<br />Party: Indian National Congress<br />Gender: Male<br />Age: 58<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>80.04,15.31</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PALGHAR</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Jadhav Baliram Sukur<br />Party: Bahujan Vikas Aaghadi<br />Gender: Male<br />Age: 56<br />Educaition: Under Matric<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>72.48,19.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PALI</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Badri Ram Jakhar<br />Party: Indian National Congress<br />Gender: Male<br />Age: 60<br />Educaition: Under Matric<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>73.24,18.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PALI</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Badri Ram Jakhar<br />Party: Indian National Congress<br />Gender: Male<br />Age: 60<br />Educaition: Under Matric<br />Attendance: 88%<br />]]></description>
+<Point>
+<coordinates>81.06,23.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PARBHANI</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Dudhgaonkar Ganeshrao Nagorao<br />Party: Shiv Sena<br />Gender: Male<br />Age: 67<br />Educaition: Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>76.47,19.16</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PATAN</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Jagdish Thakor<br />Party: Indian National Congress<br />Gender: Male<br />Age: 55<br />Educaition: Matric<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>73.54,17.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PATHANAMTHITTA</name>
+<description><![CDATA[
+State: Kerala<br />Candidate: Anto Antony<br />Party: Indian National Congress<br />Gender: Male<br />Age: 55<br />Educaition: Graduate<br />Attendance: 84%<br />]]></description>
+<Point>
+<coordinates>76.48,9.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PATIALA</name>
+<description><![CDATA[
+State: Punjab<br />Candidate: Preneet Kaur<br />Party: Indian National Congress<br />Gender: Female<br />Age: 67<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>76.24,30.19</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PERAMBALUR</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: D. Napoleon<br />Party: Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 48<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>78.53,11.14</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PHULPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Kapil Muni Karwariya<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 45<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>82.54,26.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PILIBHIT</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Feroze Varun Gandhi<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 32<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>79.48,28.38</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>POLLACHI</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: K. Sugumar<br />Party: All India Anna Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 51<br />Educaition: Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>77.01,10.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PONNANI</name>
+<description><![CDATA[
+State: Kerala<br />Candidate: E. T. Mohammed Basheer<br />Party: Muslim League Kerala State Committee<br />Gender: Male<br />Age: 66<br />Educaition: Inter/ Higher Secondary<br />Attendance: 84%<br />]]></description>
+<Point>
+<coordinates>75.54,10.46</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PORBANDAR</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Vitthalbhai Hansrajbhai Radadiya<br />Party: Indian National Congress<br />Gender: Male<br />Age: 53<br />Educaition: Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>69.36,21.38</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PRATAPGARH</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Ratna Singh<br />Party: Indian National Congress<br />Gender: Female<br />Age: 53<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>74.47,24.02</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PRATAPGARH</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Ratna Singh<br />Party: Indian National Congress<br />Gender: Female<br />Age: 53<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>82.0,25.54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PUNE</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Suresh Kalmadi<br />Party: Indian National Congress<br />Gender: Male<br />Age: 68<br />Educaition: Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>73.52,18.32</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PURI</name>
+<description><![CDATA[
+State: Orissa<br />Candidate: Pinaki Misra<br />Party: Biju Janata Dal<br />Gender: Male<br />Age: 52<br />Educaition: Graduate<br />Attendance: 76%<br />]]></description>
+<Point>
+<coordinates>85.51,19.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PURNIA</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Uday Singh Alias Pappu Singh<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 59<br />Educaition: Inter/ Higher Secondary<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>87.3,25.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PURULIA</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Narahari Mahato<br />Party: All India Forward Bloc<br />Gender: Male<br />Age: 56<br />Educaition: Post Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>86.22,23.2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAE BARELI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Sonia Gandhi<br />Party: Indian National Congress<br />Gender: Female<br />Age: 65<br />Educaition: Diploma Course<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>81.14,26.13</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAICHUR</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: S. Pakkirappa<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 53<br />Educaition: Under Matric<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>77.22,16.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAIGANJ</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Deepa Dashmunsi<br />Party: Indian National Congress<br />Gender: Female<br />Age: 51<br />Educaition: Post Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.07,25.37</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAIPUR</name>
+<description><![CDATA[
+State: Chhattisgarh<br />Candidate: Ramesh Bais<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 65<br />Educaition: Inter/ Higher Secondary<br />Attendance: 64%<br />]]></description>
+<Point>
+<coordinates>74.06,26.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAJAHMUNDRY</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Aruna Kumar Vundavalli<br />Party: Indian National Congress<br />Gender: Male<br />Age: 58<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>81.47,16.59</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAJAMPET</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Sai Prathap Annayyagari<br />Party: Indian National Congress<br />Gender: Male<br />Age: 67<br />Educaition: Under Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>79.1,14.11</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAJGARH</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Narayan Singh Amlabe<br />Party: Indian National Congress<br />Gender: Male<br />Age: 61<br />Educaition: Inter/ Higher Secondary<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>74.54,22.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAJKOT</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Kunwarjibhai Mohanbhai Bavaliya<br />Party: Indian National Congress<br />Gender: Male<br />Age: 57<br />Educaition: Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>70.47,22.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAJMAHAL</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Devidhan Besra<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 72<br />Educaition: Matric<br />Attendance: 66%<br />]]></description>
+<Point>
+<coordinates>87.5,25.03</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAJNANDGAON</name>
+<description><![CDATA[
+State: Chhattisgarh<br />Candidate: Madhusudan Yadav<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 42<br />Educaition: Inter/ Higher Secondary<br />Attendance: 64%<br />]]></description>
+<Point>
+<coordinates>81.06,21.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAMPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: P. Jaya Prada Nahata<br />Party: Independent<br />Gender: Female<br />Age: 50<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>84.18,21.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAMPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: P. Jaya Prada Nahata<br />Party: Independent<br />Gender: Female<br />Age: 50<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>73.54,23.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAMPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: P. Jaya Prada Nahata<br />Party: Independent<br />Gender: Female<br />Age: 50<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>81.3,24.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAMPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: P. Jaya Prada Nahata<br />Party: Independent<br />Gender: Female<br />Age: 50<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>81.06,24.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAMPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: P. Jaya Prada Nahata<br />Party: Independent<br />Gender: Female<br />Age: 50<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.48,26.36</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAMPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: P. Jaya Prada Nahata<br />Party: Independent<br />Gender: Female<br />Age: 50<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>79.06,28.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAMTEK</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Mukul Balkrishna Wasnik<br />Party: Indian National Congress<br />Gender: Male<br />Age: 52<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>79.2,21.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RANAGHAT</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Sucharu Ranjan Haldar<br />Party: All India Trinamool Congress<br />Gender: Male<br />Age: 72<br />Educaition: Post Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.35,23.11</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RANCHI</name>
+<description><![CDATA[
+State: Jharkhand<br />Candidate: Subodh Kant Sahay<br />Party: Indian National Congress<br />Gender: Male<br />Age: 61<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>85.2,23.21</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RATLAM</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Kantilal Bhuria<br />Party: Indian National Congress<br />Gender: Male<br />Age: 62<br />Educaition: Post Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>75.04,23.19</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>RAVER</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Haribhau Madhav Jawale<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 59<br />Educaition: Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>76.02,21.15</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>REWA</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Deoraj Singh Patel<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 43<br />Educaition: Post Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>81.18,24.32</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ROBERTSGANJ</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Pakauri Lal<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 60<br />Educaition: Under Matric<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.04,24.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ROHTAK</name>
+<description><![CDATA[
+State: Haryana<br />Candidate: Deepender Singh Hooda<br />Party: Indian National Congress<br />Gender: Male<br />Age: 34<br />Educaition: Post Graduate<br />Attendance: 69%<br />]]></description>
+<Point>
+<coordinates>76.34,28.54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SAHARANPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Jagdish Singh Rana<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 58<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>77.33,29.58</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SALEM</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: S. Semmalai<br />Party: All India Anna Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 67<br />Educaition: Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>78.1,11.39</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SALEMPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Ramashankar Rajbhar<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 52<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.54,26.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SAMASTIPUR</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Maheshwar Hazari<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 49<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>85.47,25.51</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SAMBHAL</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Shafiqur Rahman Barq<br />Party: Bahujan Samaj Party<br />Gender: Male<br />Age: 82<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>78.33,28.35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SANGLI</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Pratik Prakashbapu Patil<br />Party: Indian National Congress<br />Gender: Male<br />Age: 39<br />Educaition: Diploma Course<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>74.34,16.52</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SANGRUR</name>
+<description><![CDATA[
+State: Punjab<br />Candidate: Vijay Inder Singla<br />Party: Indian National Congress<br />Gender: Male<br />Age: 40<br />Educaition: Graduate<br />Attendance: 78%<br />]]></description>
+<Point>
+<coordinates>75.5,30.14</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SASARAM</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Meira Kumar<br />Party: Indian National Congress<br />Gender: Female<br />Age: 67<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>84.02,24.57</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SATARA</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Shrimant Chh. Udyanraje Pratapsinhmaharaj Bhonsle<br />Party: Nationalist Congress Party<br />Gender: Male<br />Age: 46<br />Educaition: Post Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>73.59,17.41</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SATNA</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Ganesh Singh<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 50<br />Educaition: Post Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>80.5,24.35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SECUNDERABAD</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: M. Anjan Kumar Yadav<br />Party: Indian National Congress<br />Gender: Male<br />Age: 51<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>78.33,17.27</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SERAMPORE</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Kalyan Banerjee<br />Party: All India Trinamool Congress<br />Gender: Male<br />Age: 55<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>88.21,22.45</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SHAHDOL</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Rajesh Nandini Singh<br />Party: Indian National Congress<br />Gender: Female<br />Age: 55<br />Educaition: Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>81.21,23.2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SHAHJAHANPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Mithlesh Kumar<br />Party: Samajwadi Party<br />Gender: Male<br />Age: 47<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>79.55,27.53</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SHILLONG</name>
+<description><![CDATA[
+State: Meghalaya<br />Candidate: Vincent H Pala<br />Party: Indian National Congress<br />Gender: Male<br />Age: 44<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>88.24,25.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SIDHI</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Govind Prasad Mishra<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 63<br />Educaition: Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>81.53,24.25</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SIKAR</name>
+<description><![CDATA[
+State: Rajasthan<br />Candidate: Mahadeo Singh Khandela<br />Party: Indian National Congress<br />Gender: Male<br />Age: 68<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>75.09,27.37</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SIKKIM</name>
+<description><![CDATA[
+State: Sikkim<br />Candidate: Prem Das Rai<br />Party: Sikkim Democratic Front<br />Gender: Male<br />Age: 58<br />Educaition: Graduate<br />Attendance: 90%<br />]]></description>
+<Point>
+<coordinates>88.35,27.35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SILCHAR</name>
+<description><![CDATA[
+State: Assam<br />Candidate: Kabindra Purkayastha<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 80<br />Educaition: Post Graduate<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>92.48,24.49</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SITAMARHI</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Arjun Roy<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 40<br />Educaition: Doctorate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>85.29,26.36</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SITAPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Kaisar Jahan<br />Party: Bahujan Samaj Party<br />Gender: Female<br />Age: 38<br />Educaition: Under Matric<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>80.41,27.34</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SIVAGANGA</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: Palaniappan Chidambaram<br />Party: Indian National Congress<br />Gender: Male<br />Age: 66<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>78.29,9.52</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SIWAN</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Om Prakash Yadav<br />Party: Independent<br />Gender: Male<br />Age: 50<br />Educaition: Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>84.22,26.13</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SONIPAT</name>
+<description><![CDATA[
+State: Haryana<br />Candidate: Jitender Singh Malik<br />Party: Indian National Congress<br />Gender: Male<br />Age: 42<br />Educaition: Graduate<br />Attendance: 69%<br />]]></description>
+<Point>
+<coordinates>77.01,28.59</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SRIKAKULAM</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Killi Krupa Rani<br />Party: Indian National Congress<br />Gender: Female<br />Age: 46<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>83.54,18.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SRINAGAR</name>
+<description><![CDATA[
+State: Jammu and Kashmir<br />Candidate: Farooq Abdullah<br />Party: Jammu and Kashmir National Conference<br />Gender: Male<br />Age: 74<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>74.48,26.24</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SRIPERUMBUDUR</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: Thalikkottai Rajuthevar Baalu<br />Party: Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 71<br />Educaition: Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>79.54,12.54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SULTANPUR</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Sanjay Sinh<br />Party: Indian National Congress<br />Gender: Male<br />Age: 60<br />Educaition: Doctorate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>76.12,25.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SUNDARGARH</name>
+<description><![CDATA[
+State: Orissa<br />Candidate: Hemanand Biswal<br />Party: Indian National Congress<br />Gender: Male<br />Age: 72<br />Educaition: Inter/ Higher Secondary<br />Attendance: 76%<br />]]></description>
+<Point>
+<coordinates>84.02,22.07</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SUPAUL</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Vishwa Mohan Kumar<br />Party: Janata Dal (United)<br />Gender: Male<br />Age: 54<br />Educaition: Post Graduate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>86.36,26.07</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SURAT</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Darshana Vikram Jardosh<br />Party: Bharatiya Janata Party<br />Gender: Female<br />Age: 51<br />Educaition: Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>72.5,21.1</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SURENDRANAGAR</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Somabhai Gandalal Koli Patel<br />Party: Indian National Congress<br />Gender: Male<br />Age: 72<br />Educaition: Under Matric<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>71.41,22.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TAMLUK</name>
+<description><![CDATA[
+State: West Bengal<br />Candidate: Suvendu Adhikari<br />Party: All India Trinamool Congress<br />Gender: Male<br />Age: 41<br />Educaition: Graduate<br />Attendance: 72%<br />]]></description>
+<Point>
+<coordinates>87.55,22.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TENKASI</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: P. Lingam<br />Party: Communist Party of India<br />Gender: Male<br />Age: 46<br />Educaition: Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>77.18,8.58</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TEZPUR</name>
+<description><![CDATA[
+State: Assam<br />Candidate: Joseph Toppo<br />Party: Asom Gana Parishad<br />Gender: Male<br />Age: 58<br />Educaition: Inter/ Higher Secondary<br />Attendance: 81%<br />]]></description>
+<Point>
+<coordinates>92.48,26.38</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>THANE</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Sanjeev Ganesh Naik<br />Party: Nationalist Congress Party<br />Gender: Male<br />Age: 40<br />Educaition: Inter/ Higher Secondary<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>73.0,19.12</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>THANJAVUR</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: S.S. Palanimanickam<br />Party: Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 62<br />Educaition: Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>79.09,10.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TIKAMGARH</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Virendra Kumar<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 58<br />Educaition: Doctorate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>78.5,24.44</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TIRUNELVELI</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: S.S. Ramasubbu<br />Party: Indian National Congress<br />Gender: Male<br />Age: 62<br />Educaition: Post Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>77.42,8.44</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TIRUPATI</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Chinta Mohan<br />Party: Indian National Congress<br />Gender: Male<br />Age: 57<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>79.25,13.39</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TIRUPPUR</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: C. Sivasami<br />Party: All India Anna Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 55<br />Educaition: Post Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>77.21,11.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TIRUVALLUR</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: P. Venugopal<br />Party: All India Anna Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 60<br />Educaition: Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>79.55,13.09</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TIRUVANNAMALAI</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: Danapal Venugopal<br />Party: Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 80<br />Educaition: Inter/ Higher Secondary<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>79.04,12.13</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TUMKUR</name>
+<description><![CDATA[
+State: Karnataka<br />Candidate: Gangasandra Siddappa Basavaraj<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 71<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>77.05,13.21</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TURA</name>
+<description><![CDATA[
+State: Meghalaya<br />Candidate: Agatha K. Sangma<br />Party: Nationalist Congress Party<br />Gender: Female<br />Age: 32<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>90.13,25.31</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TURA</name>
+<description><![CDATA[
+State: Meghalaya<br />Candidate: Agatha K. Sangma<br />Party: Nationalist Congress Party<br />Gender: Female<br />Age: 32<br />Educaition: Post Graduate<br />Attendance: N/A<br />]]></description>
+<Point>
+<coordinates>70.06,23.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>UDHAMPUR</name>
+<description><![CDATA[
+State: Jammu and Kashmir<br />Candidate: Chaudhary Lal Singh<br />Party: Indian National Congress<br />Gender: Male<br />Age: 53<br />Educaition: Graduate<br />Attendance: 89%<br />]]></description>
+<Point>
+<coordinates>75.08,32.56</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>UJIARPUR</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Ashwamedh Devi<br />Party: Janata Dal (United)<br />Gender: Female<br />Age: 44<br />Educaition: Under Matric<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>85.48,25.48</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>UJJAIN</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Premchandra Guddu<br />Party: Indian National Congress<br />Gender: Male<br />Age: 52<br />Educaition: Inter/ Higher Secondary<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>75.46,23.11</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>UNNAO</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Annu Tandon<br />Party: Indian National Congress<br />Gender: Female<br />Age: 54<br />Educaition: Graduate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>80.3,26.32</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>VADODARA</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Balkrishna Khanderao Shukla<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 49<br />Educaition: Post Graduate<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>73.12,22.18</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>VAISHALI</name>
+<description><![CDATA[
+State: Bihar<br />Candidate: Raghuvansh Prasad Singh<br />Party: Rashtriya Janata Dal<br />Gender: Male<br />Age: 66<br />Educaition: Doctorate<br />Attendance: 87%<br />]]></description>
+<Point>
+<coordinates>85.12,25.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>VALSAD</name>
+<description><![CDATA[
+State: Gujarat<br />Candidate: Kishanbhai Vestabhai Patel<br />Party: Indian National Congress<br />Gender: Male<br />Age: 48<br />Educaition: Inter/ Higher Secondary<br />Attendance: 79%<br />]]></description>
+<Point>
+<coordinates>72.54,20.42</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>VARANASI</name>
+<description><![CDATA[
+State: Uttar Pradesh<br />Candidate: Murli Manohar Joshi<br />Party: Bharatiya Janata Party<br />Gender: Male<br />Age: 78<br />Educaition: Doctorate<br />Attendance: 80%<br />]]></description>
+<Point>
+<coordinates>83.0,25.2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>VELLORE</name>
+<description><![CDATA[
+State: Tamil Nadu<br />Candidate: Abdul Rahman<br />Party: Dravida Munnetra Kazhagam<br />Gender: Male<br />Age: 53<br />Educaition: Post Graduate<br />Attendance: 73%<br />]]></description>
+<Point>
+<coordinates>79.08,12.56</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>VIDISHA</name>
+<description><![CDATA[
+State: Madhya Pradesh<br />Candidate: Sushma Swaraj<br />Party: Bharatiya Janata Party<br />Gender: Female<br />Age: 60<br />Educaition: Graduate<br />Attendance: 83%<br />]]></description>
+<Point>
+<coordinates>77.49,23.32</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>VIJAYAWADA</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Rajagopal Lagadapati<br />Party: Indian National Congress<br />Gender: Male<br />Age: 48<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>80.37,16.31</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>VIZIANAGARAM</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Jhansi Botcha Lakshmi<br />Party: Indian National Congress<br />Gender: Female<br />Age: 48<br />Educaition: Doctorate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>83.25,18.07</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>VIZIANAGARAM</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Jhansi Botcha Lakshmi<br />Party: Indian National Congress<br />Gender: Female<br />Age: 48<br />Educaition: Doctorate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>83.24,18.06</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>WARANGAL</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Rajaiah Siricilla<br />Party: Indian National Congress<br />Gender: Male<br />Age: 59<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>79.35,18.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>WARDHA</name>
+<description><![CDATA[
+State: Maharashtra<br />Candidate: Datta Raghobaji Meghe<br />Party: Indian National Congress<br />Gender: Male<br />Age: 75<br />Educaition: Graduate<br />Attendance: 74%<br />]]></description>
+<Point>
+<coordinates>78.37,20.45</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ZAHIRABAD</name>
+<description><![CDATA[
+State: Andhra Pradesh<br />Candidate: Suresh Kumar Shetkar<br />Party: Indian National Congress<br />Gender: Male<br />Age: 52<br />Educaition: Graduate<br />Attendance: 70%<br />]]></description>
+<Point>
+<coordinates>77.37,17.41</coordinates>
+</Point>
+</Placemark>
+
+</Document>
+</kml>

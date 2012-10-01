@@ -179,7 +179,7 @@ function handleQueryResponse(response) {
       </table>  
 </div>
 
-<div style="width:1px;height:100%;background-color:#808080;float:left;"></div>
+<div style="width:1px;height:700px;background-color:#808080;float:left;"></div>
 
 <div style="float: left;width: 49%">
 	<table align="center">

@@ -5,10 +5,48 @@
 <link href="dropdown-menu.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 
-<body style="font-family: Arial;margin: 0px;">
+<body style="font-family: Arial;margin: 0px;"  onload="initialize()">
 <div style = "background-color:#FFA500;">
 <h1 align="center" style="margin-bottom: 0;">MP Track of 15th LOK SABHA</h1>
 </div>
+
+ <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDXSFgNEZHdB6fVDL9mLoQfJWCm_8Z7B3Y&sensor=false">
+    </script>
+	<script>
+	var myCenter=new google.maps.LatLng(28.36, 77.12);
+
+	function initialize()
+	{
+	var mapProp = {
+	  center: myCenter,
+	  zoom:5,
+	  mapTypeId: google.maps.MapTypeId.ROADMAP
+	  };
+
+
+	var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+	var marker = new google.maps.Marker({
+	  position: myCenter,
+	  title:'Click to zoom'
+	  });
+
+
+		 var georssLayer = new google.maps.KmlLayer("http://dl.dropbox.com/u/22153923/data.kml");
+	  		georssLayer.setMap(map);
+
+	marker.setMap(map);
+
+	// Zoom to 9 when clicking on marker
+	google.maps.event.addListener(marker,'click',function() {
+	  map.setZoom(9);
+	  map.setCenter(marker.getPosition());
+	  });
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
 
 <ul id="navigation" class="nav-main">
     <li class="list"><a href="#">Visualizations</a>
@@ -48,6 +86,6 @@
 	</ul>
     </li>  
 </ul>
-
+<div id="googleMap" style="width:100%px;height:700px;"></div>
 </body>
 </html>

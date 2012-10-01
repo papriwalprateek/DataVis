@@ -157,7 +157,7 @@ function handleQueryResponse(response) {
 </ul>
 
 
-<div id="dashboard" style="float:left;">
+<div id="dashboard" style="float:left;width:100%">
 <div style = "width: 1050px;height: 30px">
 <a style="float: right;" href="open.html">Home</a>
 </div>

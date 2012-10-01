@@ -17,15 +17,9 @@ import jxl.read.biff.BiffException;
 
 public class ReadGeoData
 {
-/*	private String DATA_FILE;	
-	public void setInputFile(String file_name) {
-	    this.DATA_FILE = file_name;	    
-	}*/
-	//public Table read() throws IOException  {	
 	public static void main(String args[])
 	{
 		String DATA_FILE = "data/INDIA.txt";
-		FileWriter fstream;
 		float maxla=-1000,minla=1000,maxlo=-1000,minlo=1000;
 		try {
 			FileOutputStream fos = new FileOutputStream("data/data.kml");
@@ -35,17 +29,7 @@ public class ReadGeoData
 			out.write("<Document>\n");
 			out.write("\n");
 			File inputWorkbook = new File("data/MPTrack-15.xls");
-			Workbook w;
-	    	//out.write("name"+"\t"+"candidate"+"\t"+"party"+"\t"+"state"+"\t"+"latitude"+"\t"+"longitude\n");
-			//out.write("name"+"\t"+"latitude"+"\t"+"longitude\n");
-		    Table t = new Table();
-		    t.addColumn("city", String.class);
-		    t.addColumn("candidate", String.class);
-		    t.addColumn("party", String.class);
-		    t.addColumn("state", String.class);
-		    t.addColumn("latitude", Float.class);	
-		    t.addColumn("longitude", Float.class);	 	    
-		    Node node = null;
+			Workbook w; 	    
 		    w = Workbook.getWorkbook(inputWorkbook);
 		    // Get the first sheet
 		    Sheet sheet = w.getSheet(0); 
@@ -68,17 +52,14 @@ public class ReadGeoData
 			          }
 			      //  }
 			}
-
 	    
-		String str;
-		File file = new File(DATA_FILE);	
-		File file1 = new File("data/CityInfo.txt");	
+			String str;
+			File file = new File(DATA_FILE);	
 			FileInputStream fin = new FileInputStream(file);
 			BufferedReader br = new BufferedReader(new InputStreamReader(fin));	
 			int count = 0;
 			while ((str = br.readLine()) != null) 
 			{
-
 				str = str.trim();
 				String[] temp = str.split("\\s+");
 				if(temp.length==6)
@@ -103,13 +84,6 @@ public class ReadGeoData
 					if(hm.containsKey(city))
 					{
 						CityStruct b = hm.get(city);
-		    		    t.addRow();
-		    		    t.set(count,0,city);
-		    		    t.set(count,1,b.candidate);
-		    		    t.set(count,2,b.party);	
-		    		    t.set(count,3,b.state);	
-		    		    t.set(count,4,latitude);	
-		    		    t.set(count,5,longitude);	
 		    		    out.write("<Placemark>\n");
 		    		    out.write("<name>"+city+"</name>\n");
 		    		    out.write("<description><![CDATA[\nState: "+b.state+"<br />Candidate: "+b.candidate+"<br />Party: "+b.party+"<br />Gender: "+b.gender+"<br />Age: "+b.age+"<br />Educaition: "+b.education+"<br />Attendance: "+b.attendance+"<br />"+"]]></description>\n");
@@ -136,36 +110,23 @@ public class ReadGeoData
 						maxlo = longitude;
 					if(minlo>longitude)
 						minlo = longitude;						
-					//System.out.println(city);
 					if(hm.containsKey(city))
 					{
 						CityStruct b = hm.get(city);
-		    		    t.addRow();
-		    		    t.set(count,0,city);
-		    		    t.set(count,1,b.candidate);
-		    		    t.set(count,2,b.party);	
-		    		    t.set(count,3,b.state);	
-		    		    t.set(count,4,latitude);	
-		    		    t.set(count,5,longitude);	
 		    		    out.write("<Placemark>\n");
 		    		    out.write("<name>"+city+"</name>\n");
 		    		    out.write("<description><![CDATA[\nState: "+b.state+"<br />Candidate: "+b.candidate+"<br />Party: "+b.party+"<br />Gender: "+b.gender+"<br />Age: "+b.age+"<br />Educaition: "+b.education+"<br />Attendance: "+b.attendance+"<br />"+"]]></description>\n");
-		    		    out.write("<Point>\n<coordinates>"+longitude+","+latitude+"</coordinates>\n</Point>\n</Placemark>\n");
+	    		    out.write("<Point>\n<coordinates>"+longitude+","+latitude+"</coordinates>\n</Point>\n</Placemark>\n");
 		    			out.write("\n");
 					}	
-
-				//	System.out.println(city+" "+latitude+" "+longitude);
 				}	
-	
+		
 			}
 			out.write("</Document>\n");
 			out.write("</kml>\n");
 			out.close();
-
 		} catch (Exception e) {
-		System.out.println(e.toString());
-		}
-		System.out.println(maxla+" "+minla+" "+maxlo+" "+minlo);
-		//return t;
-	}
+			System.out.println(e.toString());
+		};
+	}		
 }

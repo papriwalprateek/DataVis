@@ -2,6 +2,10 @@ package Assignment2.visualizations.applets;
 
 import prefuse.util.ui.JPrefuseApplet;
 
+/**
+ * Creates the applet file to be run in a web browser
+ */
+
 public class PoliticsVisApplet extends JPrefuseApplet {
 	public static String file_name = "/home/ankit/Desktop/CSP301/DataVis/Assignment_2/data/MPTrack-15.xls";
     public void init() {

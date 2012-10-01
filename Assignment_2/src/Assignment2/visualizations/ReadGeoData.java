@@ -17,13 +17,17 @@ import jxl.read.biff.BiffException;
 
 public class ReadGeoData
 {
+	/**
+	 * Writes a kml file for use in Google Maps API
+	 */
 	public static void main(String args[])
 	{
 		String DATA_FILE = "data/INDIA.txt";
-		float maxla=-1000,minla=1000,maxlo=-1000,minlo=1000;
 		try {
 			FileOutputStream fos = new FileOutputStream("data/data.kml");
 			OutputStreamWriter out = new OutputStreamWriter(fos, "UTF-8"); 
+			
+			// adding headers to file
 			out.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");			
 			out.write("<kml xmlns=\"http://www.google.com/earth/kml/2\">\n");
 			out.write("<Document>\n");
@@ -39,6 +43,7 @@ public class ReadGeoData
 			          Cell cell = sheet.getCell(5,j);		      
 			          if(cell.getContents()!=null && cell.getContents()!="")
 			          {
+			        	  	//get data for city from excel file 
 			        	  	String city = cell.getContents().toUpperCase();
 			    		    a = new CityStruct();
 			    		    a.candidate = sheet.getCell(0,j).getContents();
@@ -61,9 +66,10 @@ public class ReadGeoData
 			while ((str = br.readLine()) != null) 
 			{
 				str = str.trim();
-				String[] temp = str.split("\\s+");
+				String[] temp = str.split("\\s+");				
 				if(temp.length==6)
 				{
+					//extracting latitude longitude information and converting to float values
 					String city = (temp[0]+" "+temp[1]).toUpperCase();
 					temp[3] = temp[3].split("'")[0];
 					float lat1 = Float.parseFloat(temp[3].split("o")[0]);
@@ -72,18 +78,11 @@ public class ReadGeoData
 					temp[5] = temp[5].split("'")[0];
 					float lon1 = Float.parseFloat(temp[5].split("o")[0]);
 					float lon2 = Float.parseFloat(temp[5].split("o")[1]);
-					float longitude = lon1+lon2/100;
-					if(maxla<latitude)
-						maxla = latitude;
-					if(minla>latitude)
-						minla = latitude;
-					if(maxlo<longitude)
-						maxlo = longitude;
-					if(minlo>longitude)
-						minlo = longitude;													
+					float longitude = lon1+lon2/100;												
 					if(hm.containsKey(city))
 					{
 						CityStruct b = hm.get(city);
+						//adding location in kml file in specified format
 		    		    out.write("<Placemark>\n");
 		    		    out.write("<name>"+city+"</name>\n");
 		    		    out.write("<description><![CDATA[\nState: "+b.state+"<br />Candidate: "+b.candidate+"<br />Party: "+b.party+"<br />Gender: "+b.gender+"<br />Age: "+b.age+"<br />Educaition: "+b.education+"<br />Attendance: "+b.attendance+"<br />"+"]]></description>\n");
@@ -101,15 +100,7 @@ public class ReadGeoData
 					temp[4] = temp[4].split("'")[0];
 					float lon1 = Float.parseFloat(temp[4].split("o")[0]);
 					float lon2 = Float.parseFloat(temp[4].split("o")[1]);
-					float longitude = lon1+lon2/100;
-					if(maxla<latitude)
-						maxla = latitude;
-					if(minla>latitude)
-						minla = latitude;
-					if(maxlo<longitude)
-						maxlo = longitude;
-					if(minlo>longitude)
-						minlo = longitude;						
+					float longitude = lon1+lon2/100;				
 					if(hm.containsKey(city))
 					{
 						CityStruct b = hm.get(city);

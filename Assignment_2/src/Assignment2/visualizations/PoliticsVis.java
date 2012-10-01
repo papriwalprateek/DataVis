@@ -60,7 +60,7 @@ import prefuse.visual.expression.InGroupPredicate;
 import prefuse.visual.sort.TreeDepthItemSorter;
 
 public class PoliticsVis extends Display {
-	
+
 	public static String DATA_FILE = "data/MPTrack-15.xls";
 	
 	private static final String tree = "tree";
@@ -73,23 +73,31 @@ public class PoliticsVis extends Display {
     private String m_label = "label";
     private int m_orientation = Constants.ORIENT_LEFT_RIGHT;
 
+    /**
+     * Creates the visualization using the tree object
+     */
     public PoliticsVis(Tree t, String label) { 
         super(new Visualization());
         m_label = label;
 
+        //adding the tree to visualization
         m_vis.add(tree, t);
         
+        //Renderer that draws a label, which consists of a text string
         m_nodeRenderer = new LabelRenderer(m_label);
         m_nodeRenderer.setRenderType(AbstractShapeRenderer.RENDER_TYPE_FILL);
         m_nodeRenderer.setHorizontalAlignment(Constants.LEFT);
         m_nodeRenderer.setRoundedCorner(8,8);
+        
+        //Renderer that draws the edge, which consists of a text string        
         m_edgeRenderer = new EdgeRenderer(Constants.EDGE_TYPE_CURVE);
         
+        //creates a new DefaultRendererFactory, changes the default edge renderer to be an EdgeRenderer using curved edges
         DefaultRendererFactory rf = new DefaultRendererFactory(m_nodeRenderer);
         rf.add(new InGroupPredicate(treeEdges), m_edgeRenderer);
         m_vis.setRendererFactory(rf);
                
-        // colors
+        // sets colors
         ItemAction nodeColor = new NodeColorAction(treeNodes);
         ItemAction textColor = new ColorAction(treeNodes,
                 VisualItem.TEXTCOLOR, ColorLib.rgb(0,0,0));
@@ -115,20 +123,31 @@ public class PoliticsVis extends Display {
         animatePaint.add(new RepaintAction());
         m_vis.putAction("animatePaint", animatePaint);
         
-        // create the tree layout action
+        // NodeLinkTreeLayout computes a tidy layout of a node-link tree diagram. 
+        // This algorithm lays out a rooted tree such that each depth level of the 
+        // tree is on a shared line
+        
         NodeLinkTreeLayout treeLayout = new NodeLinkTreeLayout(tree,
                 m_orientation, 50, 0, 8);
         treeLayout.setLayoutAnchor(new Point2D.Double(25,300));
         m_vis.putAction("treeLayout", treeLayout);
         
-        CollapsedSubtreeLayout subLayout = 
-            new CollapsedSubtreeLayout(tree, m_orientation);
+        // CollapsedSubtreeLayout sets the positions for newly collapsed or newly 
+        // expanded nodes of a tree. This action updates positions such that 
+        // nodes flow out from their parents or collapse back into their parents 
+        // upon animated transitions.
+        
+        CollapsedSubtreeLayout subLayout = new CollapsedSubtreeLayout(tree, m_orientation);
         m_vis.putAction("subLayout", subLayout);
+        
         
         AutoPanAction autoPan = new AutoPanAction();
         
         // create the filtering and layout
         ActionList filter = new ActionList();
+        
+        // Using this filter action results in data being displayed with at most 
+        //two descendants for a node set by distance function(which is 2 here)
         filter.add(new FisheyeTreeFilter(tree, 2));
         filter.add(new FontAction(treeNodes, FontLib.getFont("Tahoma", 16)));
         filter.add(treeLayout);
@@ -140,8 +159,16 @@ public class PoliticsVis extends Display {
         
         // animated transition
         ActionList animate = new ActionList(1000);
+        
+        //A pacing function that provides slow-in, slow-out animation, where the 
+        //animation begins at a slower rate, speeds up through the middle of the 
+        //animation, and then slows down again before stopping
+        
         animate.setPacingFunction(new SlowInSlowOutPacer());
         animate.add(autoPan);
+        
+        //toggles visibility according to whether the node is collapsed or not and 
+        //generate effect of node moving in and out of its parent node
         animate.add(new QualityControlAnimator());
         animate.add(new VisibilityAnimator(tree));
         animate.add(new LocationAnimator(treeNodes));
@@ -168,23 +195,8 @@ public class PoliticsVis extends Display {
         addControlListener(new ZoomControl());
         addControlListener(new WheelZoomControl());
         addControlListener(new PanControl());
-        addControlListener(new FocusControl(1, "filter"));
-        
-        registerKeyboardAction(
-            new OrientAction(Constants.ORIENT_LEFT_RIGHT),
-            "left-to-right", KeyStroke.getKeyStroke("ctrl 1"), WHEN_FOCUSED);
-        registerKeyboardAction(
-            new OrientAction(Constants.ORIENT_TOP_BOTTOM),
-            "top-to-bottom", KeyStroke.getKeyStroke("ctrl 2"), WHEN_FOCUSED);
-        registerKeyboardAction(
-            new OrientAction(Constants.ORIENT_RIGHT_LEFT),
-            "right-to-left", KeyStroke.getKeyStroke("ctrl 3"), WHEN_FOCUSED);
-        registerKeyboardAction(
-            new OrientAction(Constants.ORIENT_BOTTOM_TOP),
-            "bottom-to-top", KeyStroke.getKeyStroke("ctrl 4"), WHEN_FOCUSED);
-        
-        // ------------------------------------------------
-        
+        addControlListener(new FocusControl(1, "filter"));      
+
         // filter graph and perform layout
         setOrientation(m_orientation);
         m_vis.run("filter");
@@ -200,16 +212,20 @@ public class PoliticsVis extends Display {
         });
     }
 	
+	/**
+	 * Creates a Jframe object with content set to the visualization obtained from reading the file 
+	 */
 	public static void main(String[] argv)
 	{
         String label = "label";		
 		try {
-			
-	        JComponent treeview = demo(DATA_FILE, label);
+			//DATA_FILE points to the location of the data file MPTrack-15.xls
+			//Function demo reads the file, creates a visualization and returns a JComponent object
 	        
-	        JFrame frame = new JFrame("p r e f u s e  |  t r e e v i e w");
+			JComponent politicsvis = demo(DATA_FILE, label);	        
+	        JFrame frame = new JFrame("Politics Visualization");
 	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	        frame.setContentPane(treeview);
+	        frame.setContentPane(politicsvis);
 	        frame.pack();
 	        frame.setVisible(true);			
 		}
@@ -218,9 +234,11 @@ public class PoliticsVis extends Display {
 			e.printStackTrace();
 		}
 	}
-    // ------------------------------------------------------------------------
-   // ------------------------------------------------------------------------
+
     
+    /**
+     * Manages the orientation of the nodes with respect to the edges linking them.
+     */
     public void setOrientation(int orientation) {
         NodeLinkTreeLayout rtl 
             = (NodeLinkTreeLayout)m_vis.getAction("treeLayout");
@@ -269,14 +287,16 @@ public class PoliticsVis extends Display {
     }
     
     // ------------------------------------------------------------------------
-    
-    public static JComponent demo() {
-        return demo(DATA_FILE, "label");
-    }
-    
+      
+    /**
+     * Reads the excel file using the ReadExcel class object, add the search panel, generates a label when pointing to a particular label and creates the JComponent object
+     */
     public static JComponent demo(String datafile, final String label) {
         Color BACKGROUND = Color.WHITE;
         Color FOREGROUND = Color.BLACK;
+        
+        //ReadExcel file is responsible for reading the file and returning the tree
+        
 		ReadExcel read_file = new ReadExcel();
 		read_file.setInputFile(datafile);        
         Tree t = null;
@@ -287,12 +307,14 @@ public class PoliticsVis extends Display {
             System.exit(1);
         }
         
-        // create a new treemap
+        // create a new treemap using the tree obtained above
+        
         final PoliticsVis tview = new PoliticsVis(t, label);
         tview.setBackground(BACKGROUND);
         tview.setForeground(FOREGROUND);
         
-        // create a search panel for the tree map
+        // create a search panel for the tree map that enables keyword search over prefuse data tuples. 
+
         JSearchPanel search = new JSearchPanel(tview.getVisualization(),
             treeNodes, Visualization.SEARCH_ITEMS, label, true, true);
         search.setShowResultCount(true);
@@ -301,6 +323,8 @@ public class PoliticsVis extends Display {
         search.setBackground(BACKGROUND);
         search.setForeground(FOREGROUND);
         
+        // create a label that displays information about the node of the tree that currently being pointed 
+        
         final JFastLabel title = new JFastLabel("                 ");
         title.setPreferredSize(new Dimension(1000, 20));
         title.setVerticalAlignment(SwingConstants.BOTTOM);
@@ -308,6 +332,8 @@ public class PoliticsVis extends Display {
         title.setFont(FontLib.getFont("Tahoma", Font.PLAIN, 16));
         title.setBackground(BACKGROUND);
         title.setForeground(FOREGROUND);
+        
+        // generates the label data, if pointing to a politician additional data is retrieved else simply the label name is used
         
         tview.addControlListener(new ControlAdapter() {
             public void itemEntered(VisualItem item, MouseEvent e) {
@@ -329,6 +355,8 @@ public class PoliticsVis extends Display {
             }
         });
         
+        // create a Box object that contains the lower most part the frame (consisting of search and label panel)
+        
         Box box = new Box(BoxLayout.X_AXIS);
         box.add(Box.createHorizontalStrut(10));
         box.add(title);
@@ -337,13 +365,16 @@ public class PoliticsVis extends Display {
         box.add(Box.createHorizontalStrut(3));
         box.setBackground(BACKGROUND);
         
+        // creates a panel file adding box and the visualization
         JPanel panel = new JPanel(new BorderLayout());
         panel.setBackground(BACKGROUND);
         panel.setForeground(FOREGROUND);
         panel.add(tview, BorderLayout.CENTER);
         panel.add(box, BorderLayout.SOUTH);
+        
         return panel;
     }	   
+    
     public class OrientAction extends AbstractAction {
         private int orientation;
         
@@ -357,7 +388,7 @@ public class PoliticsVis extends Display {
             getVisualization().run("orient");
         }
     }
-    
+   
     public class AutoPanAction extends Action {
         private Point2D m_start = new Point2D.Double();
         private Point2D m_end   = new Point2D.Double();

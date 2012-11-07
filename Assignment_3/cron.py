@@ -20,7 +20,7 @@ def auto_downloader(sc,count):
 	print file_name
 	download_file(file_name, output_file);
 	count = count+1
-	sc.enter(60, 1, auto_downloader, (sc,count))
+	sc.enter(86400, 1, auto_downloader, (sc,count))
 
 
 s.enter(1, 1, auto_downloader, (s,0))

@@ -1,5 +1,5 @@
 from dashboard.models import node, edges
-f = open("data_files/log-graph.out", "rb")
+f = open("log-graph.out", "rb")
 while True:
 	x = f.readline()
 	if not x: break
